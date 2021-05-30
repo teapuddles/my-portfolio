@@ -1,14 +1,16 @@
-// Step 1: Import React
-import * as React from 'react'
-// Step 2: Define your component
-const IndexPage = () => {
+import React from 'react'
+import { projects } from '../data/projects.js'
+
+const Index = () => {
   return (
     <main>
       <title>Home Page</title>
-      <h1>Welcome to my Gatsby site!</h1>
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <h1>BIENVINEDOS ALA PAGINA DE KEVIN GLEESON!</h1>
+      <p>I'm making this in the Babylon Bean.</p>
+      {projects.map((project) => (
+        <li>{project.title}, {project.Description}, {project.githubLink}</li>
+      ))}
     </main>
-  )
-}
-// Step 3: Export your component
-export default IndexPage
+  )}
+
+export default Index
