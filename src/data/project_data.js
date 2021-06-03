@@ -3,7 +3,8 @@ export const projects = [
         title: "Covid-19 Tracker",
         hostLink: "heroku link here",
         githubLink: "github link here",
-            Description: "description of Covid Tracker ", 
+        githubLink2: "github link here",
+            description: "description of Covid Tracker ", 
         techUsed: [{
             detail1: "React.js",
             detail2: "Redux",
@@ -19,7 +20,8 @@ export const projects = [
         title: "Bloo Karaoke",
         hostLink: "heroku link here",
         githubLink: "github link here",
-            Description: "description of Bloo Karaoke ", 
+        githubLink2: "github link here",
+            description: "description of Bloo Karaoke ", 
         techUsed: [{
             detail1: "React.js",
             detail2: "Ruby on Rails",
@@ -32,7 +34,8 @@ export const projects = [
         title: "Fifteen Minute Food",
         hostLink: "heroku link here",
         githubLink: "github link here",
-            Description: "description of Fifteen Minute Food ", 
+        githubLink2: "github link here",
+            description: "description of Fifteen Minute Food ", 
         techUsed: [{
             detail1: "React.js",
             detail2: "Ruby on Rails",
@@ -46,7 +49,7 @@ export const projects = [
         title: "This Portfolio",
         hostLink: "heroku link here",
         githubLink: "github link here",
-            Description: "description of This Portfolio ", 
+            description: "description of This Portfolio ", 
         techUsed: [{
             detail1: "Gatsby",
             detail2: "React Components",
