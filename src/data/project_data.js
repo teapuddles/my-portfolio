@@ -1,9 +1,9 @@
 export const projects = [
     {
         title: "Covid-19 Tracker",
-        hostLink: "heroku link here",
-        githubLink: "github link here",
-        githubLink2: "github link here",
+        hostLink: "https://covid19trackerfrontend.herokuapp.com/",
+        githubLink: "https://github.com/radbahi/CovidTrackerFrontend",
+        githubLink2: "https://github.com/teapuddles/CovidTrackerBackend",
             description: "description of Covid Tracker ", 
         techUsed: [{
             detail1: "React.js",
@@ -18,9 +18,9 @@ export const projects = [
     },
     {
         title: "Bloo Karaoke",
-        hostLink: "heroku link here",
-        githubLink: "github link here",
-        githubLink2: "github link here",
+        hostLink: "https://bloo-karaoke.herokuapp.com/",
+        githubLink: "https://github.com/teapuddles/Bloo-Frontend",
+        githubLink2: "https://github.com/teapuddles/Bloo-Backend",
             description: "description of Bloo Karaoke ", 
         techUsed: [{
             detail1: "React.js",
@@ -32,9 +32,9 @@ export const projects = [
     },
     {
         title: "Fifteen Minute Food",
-        hostLink: "heroku link here",
-        githubLink: "github link here",
-        githubLink2: "github link here",
+        hostLink: "https://teapuddles.github.io/fifteen-minute-food-frontend/",
+        githubLink: "https://github.com/teapuddles/fifteen-minute-food-frontend",
+        githubLink2: "https://github.com/teapuddles/fifteen_min_backend",
             description: "description of Fifteen Minute Food ", 
         techUsed: [{
             detail1: "React.js",
@@ -42,7 +42,7 @@ export const projects = [
             detail3: "PostgreSQL",
             detail4: "Yelp API",
             detail5: "Stripe API",
-            detail5: "Custom CSS",
+            detail6: "Custom CSS",
         }],
     },
     {
