@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Document } from 'react-pdf'
 
 const Resume = () => {
 
@@ -9,6 +10,7 @@ const Resume = () => {
             Hi this is Kevin's Resume Page
         </div>
         <Link to="/">Back to Homepage</Link>
+        <Document file='Resume_Tech_2021.pdf' />
         </div>
     )
 }

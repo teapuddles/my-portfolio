@@ -22,9 +22,8 @@ const App = () => {
           ))}
         </div>
         </div>
-        <Link to='/About'>About</Link>
-        <br></br>
-        <Link to='/Resume'>Resume</Link>
+        <Link to='/About'>About  </Link>
+        <Link to='/Resume'>Resume  </Link>
         </div>
     )
 }
