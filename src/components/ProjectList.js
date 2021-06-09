@@ -5,6 +5,7 @@ const ProjectList = (props) => {
     // const onProjectClick = () => {
     //     props.handleProjectClick()
     // }
+    
     console.log(props)
     return(
         <div className="project-slice" >
