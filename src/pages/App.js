@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { projects } from '../data/project_data'
 import ProjectList from '../components/ProjectList'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 
 
 const App = () => {
