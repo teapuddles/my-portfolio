@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import ResumeViewer from '../components/ResumeViewer';
+import ResumeComponent from '../components/ResumeComponent';
+
 
 const Resume = () => {
 
@@ -11,7 +12,7 @@ const Resume = () => {
         </div>
         <Link to="/">Back to Homepage</Link>
         <div>
-            <ResumeViewer />
+            <ResumeComponent />
         </div>
         </div>
     )
