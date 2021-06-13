@@ -4,7 +4,7 @@ export const projects = [
         hostLink: "https://covid19trackerfrontend.herokuapp.com/",
         githubLink: "https://github.com/radbahi/CovidTrackerFrontend",
         githubLink2: "https://github.com/teapuddles/CovidTrackerBackend",
-            description: "description of Covid Tracker ", 
+        description: "description of Covid Tracker ", 
         techUsed: [{
             detail1: "React.js",
             detail2: "Redux",
@@ -21,7 +21,7 @@ export const projects = [
         hostLink: "https://bloo-karaoke.herokuapp.com/",
         githubLink: "https://github.com/teapuddles/Bloo-Frontend",
         githubLink2: "https://github.com/teapuddles/Bloo-Backend",
-            description: "description of Bloo Karaoke ", 
+        description: "description of Bloo Karaoke ", 
         techUsed: [{
             detail1: "React.js",
             detail2: "Ruby on Rails",
@@ -35,7 +35,7 @@ export const projects = [
         hostLink: "https://teapuddles.github.io/fifteen-minute-food-frontend/",
         githubLink: "https://github.com/teapuddles/fifteen-minute-food-frontend",
         githubLink2: "https://github.com/teapuddles/fifteen_min_backend",
-            description: "description of Fifteen Minute Food ", 
+        description: "description of Fifteen Minute Food ", 
         techUsed: [{
             detail1: "React.js",
             detail2: "Ruby on Rails",
@@ -47,9 +47,9 @@ export const projects = [
     },
     {
         title: "This Portfolio",
-        hostLink: "heroku link here",
+        hostLink: "host link here",
         githubLink: "github link here",
-            description: "description of This Portfolio ", 
+        description: "description of This Portfolio ", 
         techUsed: [{
             detail1: "Gatsby",
             detail2: "React Components",
