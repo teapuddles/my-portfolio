@@ -1,19 +1,19 @@
 import React from 'react'
-// import * as ResumePDF from '../images/Resume_Tech_2021'
+import ResumePDF from '../images/Resume_Tech_2021.pdf'
 
 const ResumeComponent = () => {
 
     return(
         <div className="pdfContainer" >
-            {/* <object
+            <object
             data={ResumePDF}
-            type='application.pdf'
+            type='application/pdf'
             title='Kevin Gleeson Resume 2021'
             aria-label="Kevin Gleeson Tech Resume"
             style={{ border: '1', color: 'black' }}
             width='670'
             height='600'
-          /> */}
+          />
         </div>
     )
 }

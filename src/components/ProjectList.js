@@ -1,15 +1,19 @@
 import React from 'react'
+import Project from '../pages/Project'
 
 const ProjectList = (props) => {
 
-    const onProjectClick = () => {
-        console.log(`${props.project.title}`)
-        // props.handleProjectClick()
-    }
+    console.log(props.project)
+    // const onProjectClick = () => {
+    //     console.log(`${props.project.title}`)
+    //     // props.handleProjectClick()
+    // }
 
     return(
         <div className="project-slice" >
-            <button onClick={onProjectClick}>{props.project.title}</button>
+            <button onClick={() => {
+                <Project project={props.project}/>
+            }}>{props.project.title}</button>
         </div>
     )
 }
