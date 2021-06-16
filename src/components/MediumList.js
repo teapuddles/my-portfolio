@@ -2,10 +2,14 @@ import React from 'react'
 
 const MediumList = (props) => {
 
+    const postInfo = props.post.node
 
     return(
+        <div className='medium-box'>
         <div className="medium-slice" >
-            <h1>{props.post.node.title}</h1>
+            <div>{postInfo.title}</div>
+            <div>{postInfo.content.subtitle}</div>
+        </div>
         </div>
     )
 }

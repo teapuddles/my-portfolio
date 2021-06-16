@@ -27,18 +27,22 @@ const MediumComponent = () => {
                   author {
                     username
                   }
+                  content {
+                    subtitle
+                    metaDescription
+                 }
                 }
               }
             }
           }
         `}
-              render={({ allMediumPost }) => (
-                <div>
-                  {allMediumPost.edges.map(post => (
-                    <MediumList key={post.node.uniqueSlug} post={post} />
-                  ))}
-                </div>
-              )}
+        render={({ allMediumPost }) => (
+            <div >
+            {allMediumPost.edges.map(post => (
+                <MediumList key={post.node.uniqueSlug} post={post} />
+            ))}
+            </div>
+            )}
         />
     )
 }
