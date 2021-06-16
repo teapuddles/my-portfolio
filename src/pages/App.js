@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { projects } from '../data/project_data'
 import ProjectList from '../components/ProjectList'
+import MediumComponent from '../components/MediumComponent'
 import Layout from '../components/layout'
 
 
@@ -22,6 +23,9 @@ const App = () => {
             <ProjectList key={project.title} project={project} />
           ))}
         </div>
+        </div>
+        <div>
+            <MediumComponent />
         </div>
         </div>
         </Layout>

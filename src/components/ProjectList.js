@@ -1,8 +1,9 @@
 import React from 'react'
-import Project from '../pages/Project'
+import Project from '../pages/project'
 
 const ProjectList = (props) => {
 
+    let projectProps = props.project
     console.log(props.project)
     // const onProjectClick = () => {
     //     console.log(`${props.project.title}`)
@@ -12,8 +13,9 @@ const ProjectList = (props) => {
     return(
         <div className="project-slice" >
             <button onClick={() => {
-                <Project project={props.project}/>
-            }}>{props.project.title}</button>
+                <Project project={projectProps}/>
+            }}>{props.project.title}
+            </button>
         </div>
     )
 }

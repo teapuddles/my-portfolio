@@ -6,6 +6,7 @@ const Project = (props) => {
     return(
         <div className="Project-section">
         <div>
+            HI THERE
         </div>
         <Link to="/">Back to Homepage</Link>
         </div>
