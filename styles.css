@@ -1,18 +1,14 @@
 
-/* this is a bad background image */
-.main {
-    background-image: url(./src/images/10669031_10205552929207443_5665961964891816778_o.jpg);
-    height: 100vh;
-    width: 100vw;
+.masthead {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-/* .nav-bar {
-    
-} */
 
 .nav-bar {
     border: black dotted;
-    
 }
 
 .pdfContainer {

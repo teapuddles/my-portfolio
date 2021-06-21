@@ -1,9 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import '../../styles.css'
+import GbiBridged from '../pages/bg-image'
+
+
 const Layout = ({ pageTitle, children }) => {
     return (
-      <main className='main'>
+      <GbiBridged>
+      <main>
         <title>{pageTitle}</title>
         <nav className='nav-bar'>
           <div className='nav-links'>
@@ -15,6 +20,7 @@ const Layout = ({ pageTitle, children }) => {
         <h1>{pageTitle}</h1>
         {children}
       </main>
+      </GbiBridged>
     )
   }
   

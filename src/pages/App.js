@@ -19,8 +19,8 @@ const App = () => {
         <div className="app">
         <div className="project-circle">
         <div className="project-slice-container">
-        {projects.map((project) => (
-            <ProjectList key={project.title} project={project} />
+        {projects.map((singleProject) => (
+            <ProjectList key={singleProject.title} singleProject={singleProject} />
           ))}
         </div>
         </div>
