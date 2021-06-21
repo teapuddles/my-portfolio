@@ -4,8 +4,7 @@ import '../../styles.css'
 
 const Index = () => {
   return (
-    <main>
-      <title>Home Page</title>
+    <main className='main'>
     <App /> 
     </main>
   )}

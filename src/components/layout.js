@@ -3,14 +3,14 @@ import { Link } from 'gatsby'
 
 const Layout = ({ pageTitle, children }) => {
     return (
-      <main>
+      <main className='main'>
         <title>{pageTitle}</title>
         <nav className='nav-bar'>
-          <ul>
+          <div className='nav-links'>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/About">About</Link></li>
             <li><Link to="/Resume">Resume</Link></li>
-          </ul>
+          </div>
         </nav>
         <h1>{pageTitle}</h1>
         {children}
