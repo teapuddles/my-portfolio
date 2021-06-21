@@ -5,11 +5,9 @@ const MediumList = (props) => {
     const postInfo = props.post.node
 
     return(
-        <div className='medium-box'>
         <div className="medium-slice" >
-            <div>{postInfo.title}</div>
-            <div>{postInfo.content.subtitle}</div>
-        </div>
+            <div className='post-title'>{postInfo.title}</div>
+            <div className='post-content'>{postInfo.content.subtitle}</div>
         </div>
     )
 }

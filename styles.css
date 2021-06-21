@@ -4,8 +4,27 @@
 }
 
 .medium-box {
+    width: 100vw;
+}
+
+.medium-posts {
     display: flex;
-    height: 170px;
-    width: 170px;
-    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.medium-slice {
+    border: solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.post-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.post-content {
+    margin-bottom: 20px;
 }

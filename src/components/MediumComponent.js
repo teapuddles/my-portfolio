@@ -10,7 +10,7 @@ const MediumComponent = () => {
           query MediumComponent {
             #   query our medium component with the endpoint of allMediumPost
             #   we also have the opprotunity to limit what goes in/the order/sorted by what
-            allMediumPost(limit: 7, sort: { fields: createdAt, order: DESC }) {
+            allMediumPost(limit: 4, sort: { fields: createdAt, order: DESC }) {
                 # below is the query we're making, you can filter and follow along with gql to find
                 # what each of these will yeild. 
               edges {
@@ -36,8 +36,9 @@ const MediumComponent = () => {
             }
           }
         `}
+        // we call the allMediumPost query down here and render our results into our List Component
         render={({ allMediumPost }) => (
-            <div >
+            <div className='medium-posts'>
             {allMediumPost.edges.map(post => (
                 <MediumList key={post.node.uniqueSlug} post={post} />
             ))}

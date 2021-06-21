@@ -24,7 +24,7 @@ const App = () => {
           ))}
         </div>
         </div>
-        <div>
+        <div className="medium-box">
             <MediumComponent />
         </div>
         </div>
