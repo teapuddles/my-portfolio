@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import ResumeComponent from '../components/ResumeComponent';
+import Layout from '../components/Layout.js';
 
 
 const Resume = () => {
 
     return(
+        <Layout>
         <div className="Resume-section">
         <div>
             Hi this is Kevin's Resume Page
@@ -15,6 +17,7 @@ const Resume = () => {
             <ResumeComponent />
         </div>
         </div>
+        </Layout>
     )
 }
 

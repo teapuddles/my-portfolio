@@ -2,7 +2,7 @@ import React from 'react'
 import { projects } from '../data/project_data'
 import ProjectList from '../components/ProjectList'
 import MediumComponent from '../components/MediumComponent'
-import Layout from '../components/layout'
+import Layout from '../components/Layout.js'
 
 
 const App = () => {
@@ -10,9 +10,9 @@ const App = () => {
     // const [showProject, setShowProject] = useState(false)
     // // you're going to create the projectpage component onClick with a ternary useState(boolean)
 
-    // const handleProjectClick = () => {
-    //     setShowProject(!showProject)
-    // }
+    const handleProjectClick = () => {
+        console.log("hi")
+    }
 
     return(
         <Layout pageTitle='Kevin Gleeson'>
@@ -20,7 +20,7 @@ const App = () => {
         <div className="project-circle">
         <div className="project-slice-container">
         {projects.map((singleProject) => (
-            <ProjectList key={singleProject.title} singleProject={singleProject} />
+            <ProjectList key={singleProject.title} singleProject={singleProject} handleProjectClick={handleProjectClick}/>
           ))}
         </div>
         </div>

@@ -4,17 +4,18 @@ import Project from '../pages/Project'
 const ProjectList = (props) => {
 
     let projectProps = props.singleProject
-    console.log(props.singleProject)
-    // const onProjectClick = () => {
-    //     console.log(`${props.project.title}`)
-    //     // props.handleProjectClick()
-    // }
+    console.log(projectProps)
+
+    const onProjectClick = () => {
+        console.log(`${props.project.title}`)
+        props.handleProjectClick()
+    }
 
     return(
         <div className="project-slice" >
             <button onClick={() => {
-                <Project myProject={projectProps}/>
-            }}>{props.singleProject.title}
+                <Project key={projectProps.title} onClick={onProjectClick()} projectProps={projectProps}/>
+            }}>{projectProps.title}
             </button>
         </div>
     )
