@@ -1,20 +1,14 @@
 import React from 'react'
-import Project from '../pages/Project'
+import { Link } from 'gatsby'
 
 const ProjectList = (props) => {
 
     let projectProps = props.singleProject
-    console.log(projectProps)
-
-    const onProjectClick = () => {
-        console.log(`${props.project.title}`)
-        props.handleProjectClick()
-    }
 
     return(
         <div className="project-slice" >
             <button onClick={() => {
-                <Project key={projectProps.title} onClick={onProjectClick()} projectProps={projectProps}/>
+                <Link to='/SingleProject' key={projectProps.title} projectProps={projectProps}/>
             }}>{projectProps.title}
             </button>
         </div>
