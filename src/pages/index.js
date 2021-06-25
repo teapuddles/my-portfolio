@@ -1,13 +1,17 @@
 import React from 'react'
-import App from './App'
 import '../css/custom.css'
+import MediumComponent from '../components/MediumComponent'
+import Layout from '../components/Layout.js'
+import GbiBridged from './bg-image'
 
 
 const Index = () => {
   return (
-    <main>
-    <App />
-    </main>
+    <Layout pageTitle='Kevin Gleeson'>
+        <div className="medium-box">
+            <MediumComponent />
+        </div>
+    </Layout>
   )}
 
 

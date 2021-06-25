@@ -8,19 +8,30 @@ import GbiBridged from '../pages/bg-image'
 
 const Layout = ({ pageTitle, children }) => {
     return (
-      <main>
+      <>
+        <div id='background-img' />
         <title>{pageTitle}</title>
-        <nav className='nav-bar'>
-          <div className='nav-links'>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/About">About</Link></li>
-            <li><Link to="/Resume">Resume</Link></li>
-            <li><Link to="/Projects">Projects</Link></li>
-          </div>
-        </nav>
-        <h1>{pageTitle}</h1>
-        {children}
-      </main>
+        <header>
+
+          <Link to="/" id='name-wrapper'>
+            <h2>Kevin Gleeson</h2>
+            <h5>Web developer</h5>
+          </Link>
+
+          <nav className='nav-links'>
+            <Link to="/">Home</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/resume">Resume</Link>
+            <Link to="/about">About</Link>
+          </nav>
+
+        </header>
+        <main>
+          <h1>{pageTitle}</h1>
+          {children}
+        </main>
+        <footer>Kevin 2021</footer>
+      </>
     )
   }
   

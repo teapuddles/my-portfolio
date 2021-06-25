@@ -1,23 +1,131 @@
+:root {
+    font-family: "Hevetica Neue", Helvetica, Arial, "Lucida Grand", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../images/10669031_10205552929207443_5665961964891816778_o.jpg') no-repeat fixed center;
+    opacity: 0.5;
+}
+
+
+main {
+    position: relative;
+    margin-top: 65px;
+    padding: 2rem 1.5rem;
+    min-height: calc(100vh - 65px - 25px);
+}
+
 .masthead {
     width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -101;
 }
 
-.nav-bar {
-    border: black dotted;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header + Navbar */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    z-index: 1000;
+    padding: 0 1.5rem;
+}
+
+#name-wrapper {
+    flex: 1;
+}
+
+.nav-links {
+    flex: 1;
+    max-width: 500px;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 100%;
+}
+
+.nav-links a {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: .85rem;
+    letter-spacing: .175rem;
+    position: relative;
+}
+
+.nav-links a:hover {
+    background-color: rgba(189, 212, 209, 0.3);
+}
+
+.nav-links a[aria-current] {
+    background-color: rgba(189, 212, 209, 0.3);
+}
+
+.nav-links a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2a2624;
+}
+
+.nav-links a[aria-current]:after {
+    height: 3px;
+}
+
+
+
+/* Resume */
 
 .pdfContainer {
     height: 750px,;
     border: 1px solid, rgba(0,0,0,0.3)
 }
 
-.medium-box {
-    width: 100vw;
-}
+
+/* Medium */
 
 .medium-posts {
     display: flex;
@@ -38,4 +146,10 @@
 
 .post-content {
     margin-bottom: 20px;
+}
+
+footer {
+    height: 25px;
+    padding: 0 1.5rem;
+    background-color: rgba(255,255,255,.3);
 }
