@@ -1,19 +1,18 @@
-import React from 'react'
-import MediumComponent from '../components/MediumComponent'
-import Layout from '../components/Layout.js'
-import GbiBridged from './bg-image'
+// import React from 'react'
+// import MediumComponent from '../components/MediumComponent'
+// import Layout from '../components/Layout.js'
 
 
-const App = () => {
+// const App = () => {
 
-    return(
-        <Layout pageTitle='Kevin Gleeson'>
-            <div className="medium-box">
-                <MediumComponent />
-            </div>
-        </Layout>
-    )
-}
+//     return(
+//         <Layout pageTitle='Kevin Gleeson'>
+//             <div className="medium-box">
+//                 <MediumComponent />
+//             </div>
+//         </Layout>
+//     )
+// }
 
 
-export default App
+// export default App

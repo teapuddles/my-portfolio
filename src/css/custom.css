@@ -2,15 +2,21 @@
     font-family: "Hevetica Neue", Helvetica, Arial, "Lucida Grand", sans-serif;
 }
 
+/* body box-sizing to help boxes not clip over each other */
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* all boxes inherit border box */
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+/* background */
 
 #background-img {
     position: fixed;
@@ -30,19 +36,13 @@ main {
     min-height: calc(100vh - 65px - 25px);
 }
 
-.masthead {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -101;
-}
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
+
+/* links */
 
 a {
     text-decoration: none;
@@ -60,14 +60,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background-color: rgba(245,245,245);
     z-index: 1000;
     padding: 0 1.5rem;
 }
 
+/* flex of 1 makes things take up all available space */
+
 #name-wrapper {
     flex: 1;
 }
+
+/* when both of these have flex: 1, they split the space */
 
 .nav-links {
     flex: 1;
@@ -78,6 +82,8 @@ header {
     list-style: none;
     height: 100%;
 }
+
+/* split the spaces between links */
 
 .nav-links a {
     flex: 1;
@@ -93,9 +99,13 @@ header {
     position: relative;
 }
 
+/* change color on hover */
+
 .nav-links a:hover {
     background-color: rgba(189, 212, 209, 0.3);
 }
+
+/* underline current page in nav-links */
 
 .nav-links a[aria-current] {
     background-color: rgba(189, 212, 209, 0.3);
@@ -147,6 +157,8 @@ header {
 .post-content {
     margin-bottom: 20px;
 }
+
+/* footer */
 
 footer {
     height: 25px;
