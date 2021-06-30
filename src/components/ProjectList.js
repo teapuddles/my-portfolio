@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-// import { Card } from 'bootstrap/dist/css/bootstrap.min.css'
-
+import { ProjectSlice } from './StyledProjectComponent'
 
 const ProjectList = (props) => {
 
@@ -9,12 +8,17 @@ const ProjectList = (props) => {
     console.log(projectProps)
 
     return(
-        <div className="project-slice" >
+        <ProjectSlice>
+            {projectProps.title}
+            <br></br>
+            {projectProps.description}
+            <br></br>
+            {projectProps.hostLink}
             <button onClick={() => {
                 <Link to='/SingleProject' key={projectProps.title} projectProps={projectProps}/>
             }}>{projectProps.title}
             </button>
-        </div>
+        </ProjectSlice>
     )
 }
 

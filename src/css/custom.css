@@ -18,6 +18,9 @@ body {
 
 /* background */
 
+/* top 0 left 0 is to set things at the top left, good for images and starting headers. */
+/* background image is fixed */
+
 #background-img {
     position: fixed;
     top: 0;
@@ -121,8 +124,17 @@ header {
     background-color: #2a2624;
 }
 
+/* aria current is the current page clicked in nav, this height adjustment is a simple fix to the 
+body slightly peeking through */
+
 .nav-links a[aria-current]:after {
     height: 3px;
+}
+
+/* Project Custom Css */
+.project-slice-container {
+    border: dotted 5px purple;
+    display: flex;
 }
 
 
