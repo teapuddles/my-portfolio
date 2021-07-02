@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import '../css/layout.css'
 import '../css/custom.css'
 
 import GbiBridged from '../pages/bg-image'

@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { ProjectSlice } from './StyledProjectComponent'
+import { 
+    ProjectSlice,
+    ProjectSliceWrapper
+ } from './StyledProjectComponent'
 
 const ProjectList = (props) => {
 
@@ -8,6 +11,7 @@ const ProjectList = (props) => {
     console.log(projectProps)
 
     return(
+        <ProjectSliceWrapper>
         <ProjectSlice>
             {projectProps.title}
             <br></br>
@@ -19,6 +23,7 @@ const ProjectList = (props) => {
             }}>{projectProps.title}
             </button>
         </ProjectSlice>
+        </ProjectSliceWrapper>
     )
 }
 
