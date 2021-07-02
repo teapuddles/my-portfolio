@@ -5,7 +5,7 @@ const ResumeComponent = () => {
 
     return(
         <div className="pdfContainer" >
-            <object
+            <object className='resumePdf'
                 data={ResumePDF}
                 type='application/pdf'
                 title='Kevin Gleeson Resume 2021'

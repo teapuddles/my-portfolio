@@ -8,7 +8,7 @@ import GbiBridged from './bg-image'
 
 const Index = () => {
   return (
-    <Layout pageTitle='Kevin Gleeson'>
+    <Layout pageTitle='Welcome.'>
         <div className="medium-box">
             <MediumComponent />
         </div>
