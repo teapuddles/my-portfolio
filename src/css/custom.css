@@ -142,13 +142,22 @@ body slightly peeking through */
 
 /* Medium */
 
+.medium-box {
+    max-height: 100vh;
+}
+
 .medium-posts {
     display: flex;
     justify-content: space-evenly;
+    position: absolute;
+    bottom:0;
+    width:100%;
 }
 
 .medium-slice {
-    border: solid black;
+    box-shadow: 5px 10px 5px #302F31;
+    background-color: rgba(189, 212, 209);
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
 }
