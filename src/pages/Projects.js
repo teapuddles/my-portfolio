@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout.js';
 import ProjectList from '../components/ProjectList';
-import { ProjectSliceContainer } from '../components/StyledProjectComponent';
+import { ProjectSliceContainer } from '../components/StyledProjectListComponent';
 
 import { projects } from '../data/project_data';
 
