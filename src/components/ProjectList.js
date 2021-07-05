@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, setState } from 'react'
 import SingleProject from '../pages/myproject'
 import { Link } from 'gatsby'
 import { 
@@ -6,7 +6,11 @@ import {
     ProjectSliceWrapper
  } from './StyledProjectListComponent'
 
+
 const ProjectList = (props) => {
+
+    const [myModal, setMyModal] = useState('false')
+
 
     let projectProps = props.singleProject
     console.log(projectProps)
@@ -25,7 +29,8 @@ const ProjectList = (props) => {
             THERES NO PROP DRILLING, AND WE ALREADY HAVE ALL THE INFO WE WANT. */}
 
             <button onClick={() => {
-                {console.log(projectProps)}
+                console.log(projectProps)
+                // setModalState = 'false' 
             }}>{projectProps.title}
             </button>
         </ProjectSlice>

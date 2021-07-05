@@ -5,10 +5,6 @@ import { ProjectSliceContainer } from '../components/StyledProjectListComponent'
 
 import { projects } from '../data/project_data';
 
-// my goal here is to have this projects page, which yeilds our project list. 
-// When a user clicks on a list item, a modal pops out with information on that project.
-// smooth transition with floating icons over the bg image. SIMPLE SIMPLE SIMPLE BUT COMPLEX!
-
 const Projects = () => {
 
     return(

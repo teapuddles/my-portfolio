@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import '../css/custom.css'
 
-import GbiBridged from '../pages/bg-image'
+// import GbiBridged from '../pages/bg-image'
 
 const Layout = ({ pageTitle, children }) => {
     return (
