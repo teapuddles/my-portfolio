@@ -20,6 +20,7 @@
     "gatsby-background-image": "^1.5.3",
     "gatsby-plugin-gatsby-cloud": "^2.6.1",
     "gatsby-plugin-image": "^1.7.1",
+    "gatsby-plugin-modal-routing": "^1.2.0",
     "gatsby-plugin-sharp": "^3.7.1",
     "gatsby-plugin-styled-components": "^4.8.0",
     "gatsby-source-filesystem": "^3.7.1",

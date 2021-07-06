@@ -7,6 +7,8 @@ import { projects } from '../data/project_data';
 
 const Projects = () => {
 
+    // possibly construct modal here? 
+
     return(
         <Layout pageTitle="Kevin's Projects">
         <ProjectSliceContainer>

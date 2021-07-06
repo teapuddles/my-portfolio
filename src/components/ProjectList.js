@@ -1,6 +1,6 @@
-import React, { useState, setState } from 'react'
-import SingleProject from '../pages/myproject'
-import { Link } from 'gatsby'
+import React, { useState } from 'react'
+// import SingleProject from '../pages/myproject'
+// import { Link } from 'gatsby'
 import { 
     ProjectSlice,
     ProjectSliceWrapper
@@ -9,11 +9,14 @@ import {
 
 const ProjectList = (props) => {
 
-    const [myModal, setMyModal] = useState('false')
-
+    const [myModal, setMyModal] = useState(false)
 
     let projectProps = props.singleProject
-    console.log(projectProps)
+
+
+    const handleProjectClick = () => {
+       return setMyModal === !myModal
+    }
 
     return(
         <ProjectSliceWrapper>
@@ -29,8 +32,7 @@ const ProjectList = (props) => {
             THERES NO PROP DRILLING, AND WE ALREADY HAVE ALL THE INFO WE WANT. */}
 
             <button onClick={() => {
-                console.log(projectProps)
-                // setModalState = 'false' 
+                 handleProjectClick()
             }}>{projectProps.title}
             </button>
         </ProjectSlice>

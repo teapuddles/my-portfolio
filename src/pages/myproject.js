@@ -1,16 +1,30 @@
 import React from 'react'
-import Layout from '../components/Layout.js';
+import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
+import { Link } from 'gatsby'
 
 
 const MyProject = (props) => {
-    
+
     console.log(props)
 
     return(
-        <Layout pageTitle='a project'>
-            <div className="project-modal">
+        <ModalRoutingContext.Consumer>
+        {({ modal, closeTo }) => (
+          <div>
+            {modal ? (
+              <Link to={closeTo}>
+                Close
+              </Link>
+            ) : (
+              <header>
+                <h1>
+                  {console.log(props)}
+                </h1>
+              </header>
+            )}
             </div>
-        </Layout>
+        )}
+      </ModalRoutingContext.Consumer>
     )
 }
 
