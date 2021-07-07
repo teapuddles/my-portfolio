@@ -8,8 +8,10 @@ const ProjectModal = (props) => {
     }
 
     return(
-        <div onClick={closeModal}>
-            HELLO EVERYONE YOU'VE MADE IT TO THE MODAL
+        <div className='modal-container' onClick={closeModal}>
+            <h2>{props.projectProps.title}</h2>
+            <h3>{props.projectProps.description}</h3>
+            <ul href={props.projectProps.hostLink}>Hosted Site</ul>
         </div>
     )
 }

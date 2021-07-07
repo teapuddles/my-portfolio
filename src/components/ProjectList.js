@@ -19,6 +19,8 @@ const ProjectList = (props) => {
     }
 
     return(
+        // this modal probably needs to be rendered 
+        // on project page instead of here. 
         <>
             {myModal ? (
                 <ProjectModal projectProps={projectProps} setMyModal={setMyModal}/>
@@ -28,15 +30,9 @@ const ProjectList = (props) => {
         <ProjectSliceWrapper>
         <ProjectSlice>
             {projectProps.title}
-            <br></br>
+              <br></br>
             {projectProps.description}
-            <br></br>
-            {projectProps.hostLink}
-
-            {/* INSTEAD OF USING A BUTTON TO CREATE NEW PAGES, WE CAN
-            RENDER OUT A MODAL HERE USING STATE. THAT WAY PROJECTS ALWAYS STAY ON PROJECT PAGE,
-            THERES NO PROP DRILLING, AND WE ALREADY HAVE ALL THE INFO WE WANT. */}
-
+              <br></br>
             <button onClick={() => {
                  handleProjectClick()
             }}>{projectProps.title}

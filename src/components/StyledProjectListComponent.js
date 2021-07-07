@@ -23,6 +23,8 @@ export const ProjectSliceContainer = styled.div`
     height: 60vh;
     display: grid; 
     grid-template-columns: repeat(2,minmax(200px, 1fr));
+    position: relative;
+    z-index: 1;
 
 `
 
