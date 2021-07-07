@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 // import SingleProject from '../pages/myproject'
 // import { Link } from 'gatsby'
+import ProjectModal from './ProjectModal'
 import { 
     ProjectSlice,
     ProjectSliceWrapper
@@ -13,12 +14,17 @@ const ProjectList = (props) => {
 
     let projectProps = props.singleProject
 
-
     const handleProjectClick = () => {
-       return setMyModal === !myModal
+        setMyModal(!myModal)
     }
 
     return(
+        <>
+            {myModal ? (
+                <ProjectModal projectProps={projectProps} setMyModal={setMyModal}/>
+            ) : 
+            null 
+            }
         <ProjectSliceWrapper>
         <ProjectSlice>
             {projectProps.title}
@@ -37,6 +43,7 @@ const ProjectList = (props) => {
             </button>
         </ProjectSlice>
         </ProjectSliceWrapper>
+        </>
     )
 }
 

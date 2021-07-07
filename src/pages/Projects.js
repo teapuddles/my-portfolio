@@ -7,7 +7,8 @@ import { projects } from '../data/project_data';
 
 const Projects = () => {
 
-    // possibly construct modal here? 
+    // Modal needs to be made on this level so that
+    // the modal doesn't pop up inside my styled project component.
 
     return(
         <Layout pageTitle="Kevin's Projects">
