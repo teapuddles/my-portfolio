@@ -105,13 +105,13 @@ header {
 /* change color on hover */
 
 .nav-links a:hover {
-    background-color: rgba(189, 212, 209, 0.3);
+    background-color: rgb(189, 200, 212);
 }
 
 /* underline current page in nav-links */
 
 .nav-links a[aria-current] {
-    background-color: rgba(189, 212, 209, 0.3);
+    background-color: rgb(189, 200, 212);
 }
 
 .nav-links a:after {
@@ -143,6 +143,7 @@ body slightly peeking through */
 }
 
 .resumePdf {
+    border-radius: 5px;
     align-self: center;
     /* width: 55%; */
 }
@@ -164,7 +165,7 @@ body slightly peeking through */
 
 .medium-slice {
     box-shadow: 5px 10px 5px #302F31;
-    background-color: rgba(189, 212, 209);
+    background-color: rgb(189, 200, 212);
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
@@ -188,7 +189,7 @@ body slightly peeking through */
     height: 100%;
     position: absolute;
     box-shadow: 5px 10px 5px #302F31;
-    background-color: rgba(189, 212, 209);
+    background-color: rgb(189, 200, 212);
     border-radius: 5px;
 }
 

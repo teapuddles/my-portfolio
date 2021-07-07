@@ -5,13 +5,13 @@ export const ProjectSlice = styled.div`
     padding: 10px; 
     margin: 20px;
     height: 10rem;
-    background-color: #DEDDD9;
+    background-color: #B1B5BB;;
     border-radius: 5px;
 `
 
 export const ProjectSliceWrapper = styled.div`
     box-shadow: 5px 10px 5px #302F31;
-    background-color: #B1B5BB;
+    background-color: rgb(189, 200, 212);
     border-radius: 5px;
     margin: 20px;
     height: 200px;
