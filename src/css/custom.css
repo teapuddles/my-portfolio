@@ -150,8 +150,11 @@ body slightly peeking through */
 
 /* Medium */
 
-.medium-box {
-    max-height: 100vh;
+.medium-header{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 200px;
 }
 
 .medium-posts {
@@ -164,6 +167,8 @@ body slightly peeking through */
 }
 
 .medium-slice {
+    display: flex;
+    flex-direction: column;
     box-shadow: 5px 10px 5px #302F31;
     background-color: rgb(189, 200, 212);
     border-radius: 5px;
@@ -175,10 +180,18 @@ body slightly peeking through */
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
+    font-size: .9rem;
 }
 
 .post-content {
     margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: .9rem;
+}
+
+.post-date{
+    font-size: small;
+    /* margin-left: 185px; */
 }
 
 /* modal */
