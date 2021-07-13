@@ -1,3 +1,4 @@
+
 export const projects = [
     {
         title: "Covid-19 Tracker",
@@ -56,4 +57,28 @@ export const projects = [
             detail3: "Css Stuff",
         }],
     }
+]
+
+export const assests = [
+    {
+        id: 1,
+        src: '../images/icons/virus.png',
+        title: 'Covid Tracker Image'
+    },
+    {
+        id: 2,
+        src: '../images/icons/piano.png',
+        title: 'Bloo Karaoke Image'
+    },
+    {
+        id: 3,
+        src: '../images/icons/food.png',
+        title: 'Fifteen Min Food Image'
+    },
+    {
+        id: 4,
+        src: '../images/icons/myIcon.png',
+        title: 'Portfolio Image'
+    }
+
 ]
