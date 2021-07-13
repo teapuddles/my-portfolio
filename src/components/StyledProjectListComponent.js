@@ -3,18 +3,22 @@ import styled from "styled-components";
 
 export const ProjectSlice = styled.div`
     padding: 10px; 
-    margin: 20px;
+    margin: 25px;
     height: 10rem;
     background-color: #B1B5BB;;
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 `
 
 export const ProjectSliceWrapper = styled.div`
     box-shadow: 5px 10px 5px #302F31;
     background-color: rgb(189, 200, 212);
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
     margin: 20px;
-    height: 200px;
+    margin-left: 25%;
 `
 
 export const ProjectSliceContainer = styled.div`

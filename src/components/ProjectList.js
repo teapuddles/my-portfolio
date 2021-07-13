@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
-// import SingleProject from '../pages/myproject'
-// import { Link } from 'gatsby'
 import ProjectModal from './ProjectModal'
 import { 
     ProjectSlice,
     ProjectSliceWrapper
  } from './StyledProjectListComponent'
-
-
-
+ import food from '../images/icons/food.png'
+ import myIcon from '../images/icons/myIcon.png'
+ import virus from '../images/icons/virus.png'
+ import piano from '../images/icons/piano.png'
+ 
 const ProjectList = (props) => {
-
+   
     const [myModal, setMyModal] = useState(false)
 
     let projectProps = props.singleProject
@@ -30,11 +30,16 @@ const ProjectList = (props) => {
             }
         <ProjectSliceWrapper>
         <ProjectSlice>
-            {projectProps.title}
-              <br></br>
-            {projectProps.description}
-              <br></br>
-            <button onClick={() => {
+         <img key={projectProps.title} 
+             src={projectProps.image} 
+             alt={projectProps.title} 
+             className='project-image' 
+             onClick={() => {
+                handleProjectClick()
+            }}>
+         </img>
+            <br></br>
+            <button className="project-buttons" onClick={() => {
                  handleProjectClick()
             }}>{projectProps.title}
             </button>
@@ -45,3 +50,6 @@ const ProjectList = (props) => {
 }
 
 export default ProjectList
+
+
+

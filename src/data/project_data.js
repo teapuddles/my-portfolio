@@ -1,3 +1,8 @@
+import food from '../images/icons/food.png'
+import myIcon from '../images/icons/myIcon.png'
+import virus from '../images/icons/virus.png'
+import piano from '../images/icons/piano.png'
+
 
 export const projects = [
     {
@@ -6,6 +11,7 @@ export const projects = [
         githubLink: "https://github.com/radbahi/CovidTrackerFrontend",
         githubLink2: "https://github.com/teapuddles/CovidTrackerBackend",
         description: "description of Covid Tracker ", 
+        image: virus,
         techUsed: [{
             detail1: "React.js",
             detail2: "Redux",
@@ -23,6 +29,7 @@ export const projects = [
         githubLink: "https://github.com/teapuddles/Bloo-Frontend",
         githubLink2: "https://github.com/teapuddles/Bloo-Backend",
         description: "description of Bloo Karaoke ", 
+        image: piano,
         techUsed: [{
             detail1: "React.js",
             detail2: "Ruby on Rails",
@@ -36,7 +43,8 @@ export const projects = [
         hostLink: "https://teapuddles.github.io/fifteen-minute-food-frontend/",
         githubLink: "https://github.com/teapuddles/fifteen-minute-food-frontend",
         githubLink2: "https://github.com/teapuddles/fifteen_min_backend",
-        description: "description of Fifteen Minute Food ", 
+        description: "description of Fifteen Minute Food ",
+        image: food,
         techUsed: [{
             detail1: "React.js",
             detail2: "Ruby on Rails",
@@ -51,6 +59,7 @@ export const projects = [
         hostLink: "host link here",
         githubLink: "github link here",
         description: "description of This Portfolio ", 
+        image: myIcon,
         techUsed: [{
             detail1: "Gatsby",
             detail2: "React Components",
@@ -59,26 +68,26 @@ export const projects = [
     }
 ]
 
-export const assests = [
-    {
-        id: 1,
-        src: '../images/icons/virus.png',
-        title: 'Covid Tracker Image'
-    },
-    {
-        id: 2,
-        src: '../images/icons/piano.png',
-        title: 'Bloo Karaoke Image'
-    },
-    {
-        id: 3,
-        src: '../images/icons/food.png',
-        title: 'Fifteen Min Food Image'
-    },
-    {
-        id: 4,
-        src: '../images/icons/myIcon.png',
-        title: 'Portfolio Image'
-    }
+// export const assets = [
+//     {
+//         id: 1,
+//         src: '../images/icons/virus.png',
+//         title: 'Covid Tracker Image'
+//     },
+//     {
+//         id: 2,
+//         src: '../images/icons/piano.png',
+//         title: 'Bloo Karaoke Image'
+//     },
+//     {
+//         id: 3,
+//         src: '../images/icons/food.png',
+//         title: 'Fifteen Min Food Image'
+//     },
+//     {
+//         id: 4,
+//         src: '../images/icons/myIcon.png',
+//         title: 'Portfolio Image'
+//     }
 
-]
+// ]

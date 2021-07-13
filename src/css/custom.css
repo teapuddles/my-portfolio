@@ -194,6 +194,23 @@ body slightly peeking through */
     /* margin-left: 185px; */
 }
 
+/* Projects */
+.project-image{
+    margin-left: 25px;
+    margin-bottom: -18px;
+}
+
+.project-buttons{
+    margin-left: 45px;
+    outline: none;
+    width: 50%;
+    font-family: "Hevetica Neue", Helvetica, Arial, "Lucida Grand", sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background-color: #B1B5BB;
+    border: none;
+}
+
 /* modal */
 .modal-container {
     z-index: 100;

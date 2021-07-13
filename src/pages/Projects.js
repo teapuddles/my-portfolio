@@ -5,10 +5,8 @@ import { ProjectSliceContainer } from '../components/StyledProjectListComponent'
 
 import { projects } from '../data/project_data';
 
-const Projects = () => {
 
-    // Modal needs to be made on this level so that
-    // the modal doesn't pop up inside my styled project component.
+const Projects = () => {
 
     return(
         <Layout pageTitle="Kevin's Projects">
