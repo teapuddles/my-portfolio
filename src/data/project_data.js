@@ -3,6 +3,10 @@ import myIcon from '../images/icons/myIcon.png'
 import virus from '../images/icons/virus.png'
 import piano from '../images/icons/piano.png'
 
+import Bloo from '../images/websitePics/Bloo.png'
+import Covid from '../images/websitePics/Covid.png'
+import Fifteen from '../images/websitePics/Fifteen.png'
+
 
 export const projects = [
     {
@@ -12,6 +16,7 @@ export const projects = [
         githubLink2: "https://github.com/teapuddles/CovidTrackerBackend",
         description: "description of Covid Tracker ", 
         image: virus,
+        siteImage: Covid,
         techUsed: [{
             detail1: "React.js",
             detail2: "Redux",
@@ -30,6 +35,7 @@ export const projects = [
         githubLink2: "https://github.com/teapuddles/Bloo-Backend",
         description: "description of Bloo Karaoke ", 
         image: piano,
+        siteImage: Bloo,
         techUsed: [{
             detail1: "React.js",
             detail2: "Ruby on Rails",
@@ -45,6 +51,7 @@ export const projects = [
         githubLink2: "https://github.com/teapuddles/fifteen_min_backend",
         description: "description of Fifteen Minute Food ",
         image: food,
+        siteImage: Fifteen,
         techUsed: [{
             detail1: "React.js",
             detail2: "Ruby on Rails",

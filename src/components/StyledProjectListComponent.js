@@ -4,31 +4,31 @@ import styled from "styled-components";
 export const ProjectSlice = styled.div`
     padding: 10px; 
     margin: 25px;
-    height: 10rem;
     background-color: #B1B5BB;;
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    
 `
 
 export const ProjectSliceWrapper = styled.div`
     box-shadow: 5px 10px 5px #302F31;
     background-color: rgb(189, 200, 212);
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
     margin: 20px;
-    margin-left: 25%;
+    border: 1px solid #302F31;;
+
 `
 
 export const ProjectSliceContainer = styled.div`
     margin-top: 30px;
-    justify-content: space-evenly;
     height: 60vh;
     display: grid; 
     grid-template-columns: repeat(2,minmax(200px, 1fr));
+    grid-gap: 5px;
     position: relative;
     z-index: 1;
+    justify-items: center;
 
 `
 

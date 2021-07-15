@@ -39,7 +39,6 @@ const MediumComponent = () => {
         // we call the allMediumPost query down here and render our results into our List Component
         render={({ allMediumPost }) => (
             <>
-            <h3 className="medium-header">Check out my Tech Blog!</h3>
             <div className='medium-posts'>
             {allMediumPost.edges.map(post => (
                 <MediumList key={post.node.uniqueSlug} post={post} />

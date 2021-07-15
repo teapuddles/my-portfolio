@@ -4,10 +4,6 @@ import {
     ProjectSlice,
     ProjectSliceWrapper
  } from './StyledProjectListComponent'
- import food from '../images/icons/food.png'
- import myIcon from '../images/icons/myIcon.png'
- import virus from '../images/icons/virus.png'
- import piano from '../images/icons/piano.png'
  
 const ProjectList = (props) => {
    

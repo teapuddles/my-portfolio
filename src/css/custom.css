@@ -151,10 +151,10 @@ body slightly peeking through */
 /* Medium */
 
 .medium-header{
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 200px;
+    position: fixed;
+    bottom: 30%;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .medium-posts {
@@ -163,7 +163,12 @@ body slightly peeking through */
     position: absolute;
     padding-right: 25px;
     bottom: 0;
-    width:100%;
+    width:100vw;
+    min-height: 25vh;
+    max-height: 25vh;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
 }
 
 .medium-slice {
@@ -171,27 +176,28 @@ body slightly peeking through */
     flex-direction: column;
     box-shadow: 5px 10px 5px #302F31;
     background-color: rgb(189, 200, 212);
-    border-radius: 5px;
+    border-radius: 3%;
     padding: 10px;
     margin: 10px;
+    border: 1px solid #302F31;;
 }
 
 .post-title {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
-    font-size: .9rem;
+    font-size: 1.3rem;
 }
 
 .post-content {
     margin-bottom: 20px;
     margin-top: 10px;
-    font-size: .9rem;
+    font-size: 1.05rem;
 }
 
 .post-date{
     font-size: small;
-    /* margin-left: 185px; */
+    padding-left: 80%;
 }
 
 /* Projects */
@@ -216,13 +222,24 @@ body slightly peeking through */
 /* modal */
 .modal-container {
     z-index: 100;
-    align-self: center;
-    width: 100%;
+    width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     position: absolute;
     box-shadow: 5px 10px 5px #302F31;
+    border: 1px solid #302F31;;
     background-color: rgb(189, 200, 212);
-    border-radius: 5px;
+    border-radius: 3%;
+}
+
+.modal-image {
+    width: 60%;
+    height: 50%;
+    border-radius: 3%;
+    border: 1px solid #302F31;
 }
 
 /* footer */
