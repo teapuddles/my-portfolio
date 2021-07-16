@@ -7,6 +7,8 @@ import Bloo from '../images/websitePics/Bloo.png'
 import Covid from '../images/websitePics/Covid.png'
 import Fifteen from '../images/websitePics/Fifteen.png'
 
+// import from '../images/kevinPics/.png'
+
 
 export const projects = [
     {
@@ -70,7 +72,8 @@ export const projects = [
         techUsed: [{
             detail1: "Gatsby",
             detail2: "React Components",
-            detail3: "Css Stuff",
+            detail3: "Styled Components",
+            detail4: "Custom CSS"
         }],
     }
 ]

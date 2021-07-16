@@ -131,6 +131,13 @@ body slightly peeking through */
     height: 3px;
 }
 
+/* Landing Page */
+
+.landing-page-kevin {
+    background: url('../images/kevinPics/ChinaKevin.jpg') no-repeat fixed center;
+
+}
+
 
 /* Resume */
 
@@ -178,6 +185,7 @@ body slightly peeking through */
     background-color: rgb(189, 200, 212);
     border-radius: 3%;
     padding: 10px;
+    overflow: scroll;
     margin: 10px;
     border: 1px solid #302F31;;
 }
@@ -224,10 +232,6 @@ body slightly peeking through */
     z-index: 100;
     width: 50%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     position: absolute;
     box-shadow: 5px 10px 5px #302F31;
     border: 1px solid #302F31;;
@@ -235,11 +239,28 @@ body slightly peeking through */
     border-radius: 3%;
 }
 
+.modal-data-wrapper {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden scroll;
+    height: 100%;
+    width: 100%;
+}
+
 .modal-image {
     width: 60%;
     height: 50%;
     border-radius: 3%;
     border: 1px solid #302F31;
+}
+
+.close-out-box{
+    padding: 10px;
+    cursor: pointer;
 }
 
 /* footer */

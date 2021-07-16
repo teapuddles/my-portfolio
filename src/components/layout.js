@@ -14,7 +14,7 @@ const Layout = ({ pageTitle, children }) => {
 
           <Link to="/" id='name-wrapper'>
             <h2>Kevin Gleeson</h2>
-            <h5>Web developer</h5>
+            <h5>Web Developer</h5>
           </Link>
 
           <nav className='nav-links'>

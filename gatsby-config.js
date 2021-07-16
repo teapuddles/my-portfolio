@@ -3,7 +3,6 @@ module.exports = {
     title: "Kevin's Portfolio",
   },
   plugins: [
-  "gatsby-plugin-modal-routing",
   "gatsby-plugin-styled-components",
   "gatsby-plugin-gatsby-cloud",
   "gatsby-plugin-image",
