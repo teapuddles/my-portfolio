@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import smallCloud from '../images/kevinPics/smallCloud.png'
 
@@ -13,17 +14,19 @@ const MainComponent = (props) => {
                 src={smallCloud}
                 alt={"cloud"}
                 className="small-cloud"
-            >
+                >
             </img>
         </div>
         <div className="main-image-wrapper">
         <div className="landing-image-container" >
+        <Link to="/about">
             <img key={props.homeImage} 
              src={props.homeImage} 
              alt={props.title} 
              className='landing-image' 
             >
             </img>
+            </Link>
         </div>
         </div>
         </div>

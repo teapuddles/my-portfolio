@@ -1,8 +1,6 @@
 import React from 'react'
 import ResumePDF from '../images/Resume_Tech_2021.pdf'
 
-import cloudFlipBig from '../images/kevinPics/cloudFlipBig.png'
-
 
 const ResumeComponent = () => {
 
