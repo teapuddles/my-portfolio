@@ -16,12 +16,12 @@ const ProjectModal = (props) => {
             <img key={modalProjectProps.title} 
              src={modalProjectProps.siteImage} 
              alt={modalProjectProps.title} 
-             href={props.projectProps.hostLink}
+             href={modalProjectProps.hostLink}
              className='modal-image' 
             >
          </img>
          <h3>{modalProjectProps.description}</h3>
-            <a href={props.projectProps.hostLink}>Hosted Site</a>
+            <a href={modalProjectProps.hostLink}>Hosted Site</a>
             </div>
         </div>
     )

@@ -133,27 +133,67 @@ body slightly peeking through */
 
 /* Landing Page */
 
-.landing-page-kevin {
-    background: url('../images/kevinPics/ChinaKevin.jpg') no-repeat fixed center;
-
+.main-wrapper{
+    margin-top: 10px;
 }
 
+.cloud-wrapper{
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.small-cloud{
+    height: 95%;
+    width: 85%;
+    opacity: 0.8;
+}
+
+.main-image-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-top: 50px; */
+}
+
+.landing-image-container {
+    height: 60%;
+    width: 60%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* padding-right: 50px; */
+}
+
+.landing-image {
+    height: 25.5rem;
+    width: 28.5rem;
+    border-radius: 50%;
+    border: 1px solid #302F31;
+    align-items: center;
+    opacity: 0.9;
+    margin-top: 20px;
+}
 
 /* Resume */
 
-.pdfContainer {
+.pdf-container {
     margin-top: 30px;
-    height: 750px,;
     border: 1px solid, rgba(0,0,0,0.3);
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .resumePdf {
     border-radius: 5px;
-    align-self: center;
-    /* width: 55%; */
 }
+
 
 /* Medium */
 
@@ -187,7 +227,7 @@ body slightly peeking through */
     padding: 10px;
     overflow: scroll;
     margin: 10px;
-    border: 1px solid #302F31;;
+    border: 1px solid #302F31;
 }
 
 .post-title {
@@ -227,6 +267,20 @@ body slightly peeking through */
     cursor: pointer;
 }
 
+.project-cloud-wrapper{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.project-cloud{
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
 /* modal */
 .modal-container {
     z-index: 100;
@@ -261,6 +315,26 @@ body slightly peeking through */
 .close-out-box{
     padding: 10px;
     cursor: pointer;
+}
+
+/* About */
+
+.about-section{
+    position: absolute;
+    z-index: 10;
+}
+
+.about-cloud-wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.about-cloud{
+    position: fixed;
+    z-index: -1;
+    height: 80%;
+    width: 80%;
+    pointer-events: none;
 }
 
 /* footer */

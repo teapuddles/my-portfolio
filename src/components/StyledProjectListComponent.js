@@ -15,10 +15,9 @@ export const ProjectSliceWrapper = styled.div`
     box-shadow: 5px 10px 5px #302F31;
     background-color: rgb(189, 200, 212);
     border-radius: 50%;
-    margin: 20px;
+    margin: 40px;
     border: 1px solid #302F31;;
-
-`
+    `
 
 export const ProjectSliceContainer = styled.div`
     margin-top: 30px;
@@ -27,7 +26,7 @@ export const ProjectSliceContainer = styled.div`
     grid-template-columns: repeat(2,minmax(200px, 1fr));
     grid-gap: 5px;
     position: relative;
-    z-index: 1;
+    z-index: 10;
     justify-items: center;
 
 `

@@ -1,10 +1,13 @@
 import React from 'react'
 import ResumePDF from '../images/Resume_Tech_2021.pdf'
 
+import cloudFlipBig from '../images/kevinPics/cloudFlipBig.png'
+
+
 const ResumeComponent = () => {
 
     return(
-        <div className="pdfContainer" >
+        <div className="pdf-container" >
             <object className='resumePdf'
                 data={ResumePDF}
                 type='application/pdf'
