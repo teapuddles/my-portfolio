@@ -20,11 +20,9 @@ export const ProjectSliceWrapper = styled.div`
     `
 
 export const ProjectSliceContainer = styled.div`
-    margin-top: 30px;
-    height: 60vh;
+    height: 100%;
     display: grid; 
     grid-template-columns: repeat(2,minmax(200px, 1fr));
-    grid-gap: 5px;
     position: relative;
     z-index: 10;
     justify-items: center;

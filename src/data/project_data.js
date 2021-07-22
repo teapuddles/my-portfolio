@@ -83,7 +83,8 @@ export const projects = [
             "Gatsby",
             "React Components",
             "Styled Components",
-            "Custom CSS"
+            "Custom CSS",
+            "Medium Plugin"
         ],
     }
 ]

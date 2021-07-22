@@ -3,10 +3,12 @@ import React from 'react'
 const TechUsedComponent = (props) => {
 
     const tech = props.tech
-    console.log(tech)
+
     return(
-    <div className="tech-used-li">
-    <li>{tech}</li>
+    <div className="li-wrapper">
+    <ul className="tech-used-ul">
+    <li className="tech-used-li">{tech}</li>
+    </ul>
     </div>
     )
 }

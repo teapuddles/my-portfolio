@@ -20,7 +20,6 @@ const Index = () => {
           title={asset.title} />
         ))}
         <div className="medium-box">
-        <div className="medium-header">My Recent Tech Blogs:</div>
           <MediumComponent />
         </div>
     </Layout>

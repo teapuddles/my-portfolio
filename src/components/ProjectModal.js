@@ -11,9 +11,9 @@ const ProjectModal = (props) => {
 
     return(
         <div className='modal-container' >
-            <h3 className='close-out-box' onClick={closeModal}> X </h3>
+            <div className='close-out-box' onClick={closeModal}> X </div>
             <div className="modal-data-wrapper">
-            <h2>{modalProjectProps.title}</h2>
+            <h2 className='modal-title'>{modalProjectProps.title}</h2>
             <img key={modalProjectProps.title} 
              src={modalProjectProps.siteImage} 
              alt={modalProjectProps.title} 
@@ -23,10 +23,12 @@ const ProjectModal = (props) => {
          </img>
          <div className="modal-info-wrapper">
          <div className="modal-description">{modalProjectProps.description}
+         </div>
+         <div className="tech-used-li-container">
          {modalProjectProps.techUsed.map((tech) => (
              <TechUsedComponent key={tech} tech={tech}></TechUsedComponent>
          ))}
-             </div>
+        </div>
              </div>
          <a href={modalProjectProps.hostLink}>{modalProjectProps.linkMessage}</a>
             </div>
