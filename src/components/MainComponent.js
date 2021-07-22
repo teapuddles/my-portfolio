@@ -5,8 +5,6 @@ import smallCloud from '../images/kevinPics/smallCloud.png'
 
 const MainComponent = (props) => {
 
-    console.log(props)
-
     return(
         <div className='main-wrapper'>
         <div className="cloud-wrapper">

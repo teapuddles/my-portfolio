@@ -21,65 +21,70 @@ export const projects = [
         hostLink: "https://covid19trackerfrontend.herokuapp.com/",
         githubLink: "https://github.com/radbahi/CovidTrackerFrontend",
         githubLink2: "https://github.com/teapuddles/CovidTrackerBackend",
-        description: "description of Covid Tracker ", 
+        description: "Covid-19 Tracker is a web application created by Radouane 'Red' Bahi, and Kevin Gleeson. Due to Covid-19 information varying so widely all over the world, this app was created to be a central hub for commonly asked global/country specific statistics.", 
         image: virus,
         siteImage: Covid,
-        techUsed: [{
-            detail1: "React.js",
-            detail2: "Redux",
-            detail3: "Ruby on Rails",
-            detail4: "PostgreSQL",
-            detail5: "Styled Components",
-            detail6: "NewsAPI",
-            detail7: "Disease.sh",
-            detail8: "Heroku One-off Dynos"
-        }],
+        linkMessage: "Take a look at this app",
+        techUsed: [
+            "React.js",
+            "Redux",
+            "Ruby on Rails",
+            "PostgreSQL",
+            "Styled Components",
+            "NewsAPI",
+            "Disease.sh",
+            "Heroku One-off Dynos"
+        ],
     },
     {
         title: "Bloo Karaoke",
         hostLink: "https://bloo-karaoke.herokuapp.com/",
         githubLink: "https://github.com/teapuddles/Bloo-Frontend",
         githubLink2: "https://github.com/teapuddles/Bloo-Backend",
-        description: "description of Bloo Karaoke ", 
+        description: "Bloo Karaoke is a webapp designed to help users find songs that they could sing at karaoke using a music education technique by Edwin Gordon called Music Learning Theory. Just follow the steps in the Find your Song section to learn more!", 
         image: piano,
         siteImage: Bloo,
-        techUsed: [{
-            detail1: "React.js",
-            detail2: "Ruby on Rails",
-            detail3: "npm-react-piano",
-            detail4: "PostgreSQL",
-            detail5: "Custom CSS"
-        }],
+        linkMessage: "Take a look at this app",
+        techUsed: [
+            "React.js",
+            "Ruby on Rails",
+            "npm-react-piano",
+            "PostgreSQL",
+            "Custom CSS"
+        ],
     },
     {
         title: "Fifteen Minute Food",
         hostLink: "https://teapuddles.github.io/fifteen-minute-food-frontend/",
         githubLink: "https://github.com/teapuddles/fifteen-minute-food-frontend",
         githubLink2: "https://github.com/teapuddles/fifteen_min_backend",
-        description: "description of Fifteen Minute Food ",
+        description: "Fifteen Minute Food is a food delivery app that allows users to search for restaurants in the New York City area and place orders for food.",
         image: food,
         siteImage: Fifteen,
-        techUsed: [{
-            detail1: "React.js",
-            detail2: "Ruby on Rails",
-            detail3: "PostgreSQL",
-            detail4: "Yelp API",
-            detail5: "Stripe API",
-            detail6: "Custom CSS",
-        }],
+        linkMessage: "Take a look at this app",
+        techUsed: [
+            "React.js",
+            "Ruby on Rails",
+            "PostgreSQL",
+            "Yelp API",
+            "Stripe API",
+            "Custom CSS",
+        ],
     },
     {
         title: "This Portfolio",
         hostLink: "host link here",
-        githubLink: "github link here",
-        description: "description of This Portfolio ", 
+        githubLink: "https://github.com/teapuddles/my-portfolio",
+        description: "This Portfolio was designed to act as a central hub for the work I create in the world of Web Development.", 
         image: myIcon,
-        techUsed: [{
-            detail1: "Gatsby",
-            detail2: "React Components",
-            detail3: "Styled Components",
-            detail4: "Custom CSS"
-        }],
+        siteImage: '',
+        linkMessage: "I hope you enjoy my portfolio!",
+        techUsed: [
+            "Gatsby",
+            "React Components",
+            "Styled Components",
+            "Custom CSS"
+        ],
     }
 ]
 

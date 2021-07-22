@@ -1,4 +1,5 @@
 import React from 'react'
+import TechUsedComponent from './TechUsedComponent'
 
 const ProjectModal = (props) => {
 
@@ -20,8 +21,14 @@ const ProjectModal = (props) => {
              className='modal-image' 
             >
          </img>
-         <h3>{modalProjectProps.description}</h3>
-            <a href={modalProjectProps.hostLink}>Hosted Site</a>
+         <div className="modal-info-wrapper">
+         <div className="modal-description">{modalProjectProps.description}
+         {modalProjectProps.techUsed.map((tech) => (
+             <TechUsedComponent key={tech} tech={tech}></TechUsedComponent>
+         ))}
+             </div>
+             </div>
+         <a href={modalProjectProps.hostLink}>{modalProjectProps.linkMessage}</a>
             </div>
         </div>
     )

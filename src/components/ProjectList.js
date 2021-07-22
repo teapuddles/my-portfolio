@@ -4,8 +4,6 @@ import {
     ProjectSlice,
     ProjectSliceWrapper
  } from './StyledProjectListComponent'
-
-import bigCloud from '../images/kevinPics/bigCloud.png'
  
 const ProjectList = (props) => {
    
