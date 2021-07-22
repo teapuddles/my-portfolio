@@ -75,7 +75,7 @@ export const projects = [
         title: "This Portfolio",
         hostLink: "host link here",
         githubLink: "https://github.com/teapuddles/my-portfolio",
-        description: "This Portfolio was designed to act as a central hub for the work I create in the world of Web Development.", 
+        description: "This Portfolio was designed to act as a central hub for the work I create in the world of Web Development. Features include a list of my four most recent blogs, and details into the technologies involved in each of my projects. I invite you to take a look around!", 
         image: myIcon,
         siteImage: '',
         linkMessage: "I hope you enjoy my portfolio!",

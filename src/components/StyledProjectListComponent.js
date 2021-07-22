@@ -8,14 +8,15 @@ export const ProjectSlice = styled.div`
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    
 `
 
 export const ProjectSliceWrapper = styled.div`
     box-shadow: 5px 10px 5px #302F31;
     background-color: rgb(189, 200, 212);
     border-radius: 50%;
-    margin: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
     border: 1px solid #302F31;;
     `
 
