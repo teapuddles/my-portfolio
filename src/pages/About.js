@@ -8,8 +8,7 @@ export default function About () {
     return (
         <Layout pageTitle="About Kevin">
             <div className="about-section">
-            <div>"About Me lolololololol</div>
-             <div className="about-cloud-wrapper">
+            <div className="about-cloud-wrapper">
              <img key={cloudFlipBig}
                 src={cloudFlipBig}
                 alt={"flipped cloud"}
@@ -17,8 +16,15 @@ export default function About () {
                 >
                 </img>
                 </div>
-            <div>
+            <div className="about-info-container">
+            <div className="about-section-info-1">
+            <div>About Me lolololololol</div>
+            </div>
+            <div className='about-section-info-2'>
+              <div>
                 Hi this is Kevin's About Page
+              </div>
+            </div>
             </div>
             </div>
         </Layout>
