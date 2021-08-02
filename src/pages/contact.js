@@ -14,7 +14,7 @@ export default function Contact () {
                     <input className="contact-email" type="email" name="email"/>
                 </label>
                 <label className="message-label">Message
-                    <input className="contact-message" type="text" name="message"/>
+                    <textarea className="contact-message" type="text" name="message"/>
                 </label>
                 <button className="contact-button" type="submit">Send</button>
                 </div>

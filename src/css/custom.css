@@ -464,20 +464,22 @@ body slightly peeking through */
 }
 
 .name-label{
+    margin-left: 25%;
+    float: left;
     padding: 10px;
     margin-top: 10px;
-    margin-left: 25%;
 }
 
 .email-label{
-    padding: 11.3px;
     margin-left: 25%;
+    float: left;
+    padding: 10px;
 }
 
 .message-label{
-    height: 100px;
+    margin-left: 25%;
+    float: left;
     padding: 10px;
-    margin-left: 8%;
 }
 
 .form-content-list input:focus {
@@ -485,27 +487,35 @@ body slightly peeking through */
     border: 1px solid black;
   }
 
+
 .contact-name{
-    margin-left: 5px;
+    float: right;
+    margin-right: 25%;
     background-color: #B1B5BB;
 }
 
 .contact-email{
-    margin-left: 5px;
+    margin-right: 25%;
+    float: right;
     background-color: #B1B5BB;
 }
 
 .contact-message{
+    margin-right: 25%;
+    float: right;
+    resize: vertical;
     background-color: #B1B5BB;
-    margin-left: 5px;
-    height: 100%;
-    width: 60%;
+    min-height: fit-content;
+}
+
+.contact-message:focus{
+    background-color: white;
 }
 
 .contact-button{
     margin-bottom: 20px;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 /* footer */
@@ -514,6 +524,7 @@ footer {
     height: 35px;
     padding: 0 1.5rem;
     padding-bottom: 2px;
+    margin-bottom: 2px;
     background-color: rgba(255,255,255,.3);
 }
 
@@ -533,4 +544,5 @@ footer {
     position: relative;
     z-index: 11;
     display: inline-flex;
+    justify-content: space-evenly;
 }
