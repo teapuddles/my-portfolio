@@ -37,31 +37,38 @@ const Layout = ({ pageTitle, children }) => {
         </main>
         <footer>
           <div className="social-icons">
-          <img key={linkedin}
+          <a href="https://www.linkedin.com/in/teapuddles824/">
+           <img key={linkedin}
                 src={linkedin}
                 alt={"linkedin"}
                 className="linkedin-icon"
                 >
                 </img>
+              </a>
+         <a href="https://teapuddles.medium.com/">
           <img key={medium}
                 src={medium}
                 alt={"medium"}
                 className="medium-icon"
                 >
                 </img>
+              </a>
+         <a href="https://github.com/teapuddles">   
           <img key={github}
                 src={github}
                 alt={"github"}
                 className="github-icon"
                 >
                 </img>
+                </a> 
+        <a href="">      
           <img key={email}
                 src={email}
                 alt={"email"}
                 className="email-icon"
                 >
                 </img>
-
+              </a> 
           </div>
         </footer>
       </>

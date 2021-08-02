@@ -175,7 +175,7 @@ body slightly peeking through */
     height: 320px;
     width: 340px;
     border-radius: 50%;
-    border: 1px solid #302F31;
+    border: 1px solid rgb(189, 200, 212);
     align-items: center;
     opacity: 0.9;
 }
@@ -250,12 +250,17 @@ body slightly peeking through */
     border: 1px solid #302F31;
 }
 
+.medium-slice a:hover {
+    color: black
+}
+
 .post-title {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 1.3rem;
     text-decoration: underline;
+    color: rgb(235, 240, 245);
 }
 
 .post-content {
@@ -452,10 +457,10 @@ footer {
     position: relative;
     z-index: 11;
     display: flex;
+    height: 100%;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 100%;
-    margin-left: 35%;
-    margin-right: 35%;
     padding-bottom: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
