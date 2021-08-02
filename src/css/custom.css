@@ -444,6 +444,70 @@ body slightly peeking through */
     pointer-events: none;
 }
 
+/* Contact */
+
+.form-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content-list{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(189, 200, 212);
+    border-radius: 10px;
+    border: 1px solid #302F31;
+    box-shadow: 5px 10px 5px #302F31;
+}
+
+.name-label{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+.email-label{
+    padding: 11.3px;
+    margin-left: 25%;
+}
+
+.message-label{
+    height: 100px;
+    padding: 10px;
+    margin-left: 8%;
+}
+
+.form-content-list input:focus {
+    background-color: white;
+    border: 1px solid black;
+  }
+
+.contact-name{
+    margin-left: 5px;
+    background-color: #B1B5BB;
+}
+
+.contact-email{
+    margin-left: 5px;
+    background-color: #B1B5BB;
+}
+
+.contact-message{
+    background-color: #B1B5BB;
+    margin-left: 5px;
+    height: 100%;
+    width: 60%;
+}
+
+.contact-button{
+    margin-bottom: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
 /* footer */
 
 footer {
@@ -463,4 +527,10 @@ footer {
     padding-bottom: 5px;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+.social-icons a{
+    position: relative;
+    z-index: 11;
+    display: inline-flex;
 }

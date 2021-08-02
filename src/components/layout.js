@@ -61,14 +61,14 @@ const Layout = ({ pageTitle, children }) => {
                 >
                 </img>
                 </a> 
-        <a href="">      
+        <Link to="/contact">      
           <img key={email}
                 src={email}
                 alt={"email"}
                 className="email-icon"
                 >
                 </img>
-              </a> 
+              </Link>
           </div>
         </footer>
       </>
