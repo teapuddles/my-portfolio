@@ -11,6 +11,7 @@ import piano from '../images/icons/piano.png'
 import Bloo from '../images/websitePics/Bloo.png'
 import Covid from '../images/websitePics/Covid.png'
 import Fifteen from '../images/websitePics/Fifteen.png'
+import Portfolio from '../images/websitePics/Portfolio.png'
 
 import ChinaKevin from '../images/kevinPics/ChinaKevin.jpg'
 
@@ -73,11 +74,11 @@ export const projects = [
     },
     {
         title: "This Portfolio",
-        hostLink: "host link here",
+        hostLink: "https://github.com/teapuddles/my-portfolio",
         githubLink: "https://github.com/teapuddles/my-portfolio",
         description: "This Portfolio was designed to act as a central hub for the work I create in the world of Web Development. Features include a list of my four most recent blogs, and details into the technologies involved in each of my projects. I invite you to take a look around!", 
         image: myIcon,
-        siteImage: '',
+        siteImage: Portfolio,
         linkMessage: "I hope you enjoy my portfolio!",
         techUsed: [
             "Gatsby",

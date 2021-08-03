@@ -355,7 +355,7 @@ body slightly peeking through */
 }
 
 .modal-image {
-    width: 50%;
+    width: 40%;
     height: 50%;
     border-radius: 3%;
     border: 1px solid #302F31;
@@ -461,6 +461,7 @@ body slightly peeking through */
     border-radius: 10px;
     border: 1px solid #302F31;
     box-shadow: 5px 10px 5px #302F31;
+    overflow: hidden;
 }
 
 .name-label{
@@ -506,6 +507,7 @@ body slightly peeking through */
     resize: vertical;
     background-color: #B1B5BB;
     min-height: fit-content;
+    
 }
 
 .contact-message:focus{

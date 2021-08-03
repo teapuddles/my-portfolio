@@ -18,12 +18,16 @@ export default function About () {
                 </div>
             <div className="about-info-container">
             <div className="about-section-info-1">
-            <div>About Me lolololololol</div>
+             <div>
+                About Me lolololololol
+                </div>
+            {/* image here */}
             </div>
             <div className='about-section-info-2'>
               <div>
                 Hi this is Kevin's About Page
               </div>
+            {/* image here */}
             </div>
             </div>
             </div>
