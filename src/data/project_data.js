@@ -3,11 +3,6 @@ import myIcon from '../images/icons/myIcon.png'
 import virus from '../images/icons/virus.png'
 import piano from '../images/icons/piano.png'
 
-// import medium from '../images/icons/medium.png'
-// import linkedin from '..images/icons/linkedin.png'
-// import twitter from '..images/icons/twitter.png'
-// import github from '..images/icons/github.png'
-
 import Bloo from '../images/websitePics/Bloo.png'
 import Covid from '../images/websitePics/Covid.png'
 import Fifteen from '../images/websitePics/Fifteen.png'
@@ -94,27 +89,5 @@ export const assets = [
     {
         homeImage: ChinaKevin,
         title: 'Kevin in Shanghai',
-        link: '',
     }
 ]
-
-
-// { 
-//     homeImage: medium,
-//     title: 'medium link',
-//     link: 'https://teapuddles.medium.com/',
-// },
-// { 
-//     homeImage: linkedin,
-//     title: 'LinkedIn link',
-//     link: 'https://www.linkedin.com/in/teapuddles824/',
-// },
-// { 
-//     homeImage: github,
-//     title: 'Github link',
-//     link: 'https://github.com/teapuddles',
-// },
-// { 
-//     homeImage: twitter,
-//     title: 'Twitter link',
-//     link: 'https://twitter.com/Teapuddles',
