@@ -3,7 +3,6 @@ import Layout from '../components/Layout.js'
 
 import cloudFlipBig from '../images/kevinPics/cloudFlipBig.png'
 import kevinShanghai from '../images/kevinPics/kevinShanghai.jpg'
-// import kevinArt from '../images/kevinPics/kevinArt.jpeg'
 
 
 export default function About () {
@@ -19,15 +18,6 @@ export default function About () {
                 </img>
                 </div>
             <div className="about-info-container">
-            {/* <div className="about-section-info-1">
-             <div className="about-text-1">
-                About Me lololololololalsdjfkajsd;lfja;lsdjlfjlkasdjflajsdl;kfj;lkajsdlkfj
-                lasjdfjlkasjd;lfjakl;sdjfl;kjal;ksdjflk;jal;sjdfl;jalksdjf;lja;sdjf;jasl;
-                laskdjf;lkaj;dsjf;lkajksdkl;fjlk;aksjd;fjal;jdsfjasdkf;ljas;dljf;kjlasjd;fjla;jdsfjasdkf;alsdjf;lkja;lsdjf;ljasldfjl;ajsd;lfjl;jalksdjf
-                lakdsfj;;lajsd;lkjfl;ajdljka;jf;ldskjf;aklsjdfl;ajsdl;fjl;asdjfjlk;lkasjdflkajsdf;lajdlkjfa;lsdfja;lksjd;flajsdlkfja;lskdjfa;ldjf
-
-                </div>
-            </div> */}
             <div className="about-pic-1-wrapper">
                 <img key={kevinShanghai}
                 src={kevinShanghai}
@@ -35,21 +25,16 @@ export default function About () {
                 className="about-pic-1"
                 />
                 </div>
-                {/* <div className="about-pic-2-wrapper">
-              <img key={kevinArt}
-                src={kevinArt}
-                alt={"kevin at art show"}
-                className="about-pic-2"
-                />
-                </div> */}
-            <div className='about-section-info-2'>
-            <div className="about-text-2">
-                Hi this is Kevin's About Page   
-                <br></br>About Me lololololololalsdjfkajsd;lfja;lsdjlfjlkasd<br></br>jflajsdl;kfj;lkajsdlkfj
-                lasjdfjlkasjd;lfjakl;sdjfl;kj<br></br>al;ksdjflk;jal;sjdfl;jalksdjf;lja;sdjf;jasl;
-                laskdjf;lkaj;dsjf;lkajksdkl;fjlk;aksjd;fjal;jdsfjasdkf;ljas;dljf;<br></br>kjlasjd;fjla;jdsfjasdkf;alsdjf;lkja;<br></br>lsdjf;ljasldfjl;ajsd;lfjl;jalksdjf
-                lakdsfj;;l<br></br>ajsd;lkjfl;ajdljka;jf<br></br>;ldskjf;aklsjdfl;ajsdl;fjl;asdjfjlk;lkasjdflkajs<br></br>df;lajdlkjfa;lsdfja;lksjd;flajsdlkfja;lskdjfa;ldjf
-
+            <div className='about-section-info-1'>
+            <div className="about-text-1">
+                When I was 10 years old, I was asked to put in my yearbook what I wanted to be when I grew up. 
+                Since becoming a secret agent wasn't a viable career path, I wrote down Engineer. However, before I would dive into the world of software engineering, I would embark on a journey to become a life long learner.
+                <br></br><br></br>
+                After earning a Bachelors in Music Education, I traveled to Seoul, South Korea to get my feet wet teaching. What I didn't expect to find was a deep desire to surround myself within the unfamiliar.
+                <br></br><br></br>
+                The quest continued in Shanghai, China where I taught music at an international school. While there, I was able to access educational technology and software that I hadn't known existed. That's when my search for the unknown started to focus back on technology.  
+                <br></br><br></br>
+                Upon returning home, I attended Flatiron School and doubled down on the passions I've always had and re-developed after years abroad. Now I look to bring my talents, creativty, and smile to a team of other learners!
               </div>
             </div>
             </div>
