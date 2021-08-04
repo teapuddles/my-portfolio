@@ -1,0 +1,15 @@
+{
+  "main.js": "render-page.js",
+  "render-page.js.map": "render-page.js.map",
+  "static/Bloo.png": "static/Bloo-f0c72a25d7bea595674d555414a6b684.png",
+  "static/ChinaKevin.jpg": "static/ChinaKevin-fb55de173d620eac634d9a44b4f0bd98.jpg",
+  "static/Covid.png": "static/Covid-7c008e6631947fc84a55355043ab4bf4.png",
+  "static/Fifteen.png": "static/Fifteen-7f1b72c20f8f4f73758c34da4599ad9b.png",
+  "static/Portfolio.png": "static/Portfolio-7806442ca68035e7cc872937b164d0f3.png",
+  "static/Resume_Tech_2021.pdf": "static/Resume_Tech_2021-65062494f0c07e88f8da93eb1f49c8d8.pdf",
+  "static/bigCloud.png": "static/bigCloud-948c0a7b5c104ab9f89df26fce9639b6.png",
+  "static/cloudFlipBig.png": "static/cloudFlipBig-f871b38c48e6929b964058f60422b8b1.png",
+  "static/kevinShanghai.jpg": "static/kevinShanghai-04ac9da3cc63244d0ba848fd6505d494.jpg",
+  "static/smallCloud.png": "static/smallCloud-8802c86061de58036a8501f036ec8698.png",
+  "static/smallCloudFlip.png": "static/smallCloudFlip-5fb298807e83ccd52f86e54cc8da6af5.png"
+}
