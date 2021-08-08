@@ -572,4 +572,8 @@ footer {
         flex-wrap: wrap;
         overflow: scroll;
     }
+    .social-icons{
+        margin: 5px;
+        justify-content: space-evenly;
+    }
 }
