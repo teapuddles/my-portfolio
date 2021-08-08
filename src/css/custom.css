@@ -236,6 +236,7 @@ body slightly peeking through */
     overflow: hidden;    
 }
 
+
 .medium-slice {
     display: flex;
     flex-direction: column;
@@ -561,4 +562,14 @@ footer {
     z-index: 11;
     display: inline-flex;
     justify-content: space-evenly;
+}
+
+
+/* media/responsive css */
+
+@media (max-width: 375px){
+    .medium-posts{
+        flex-wrap: wrap;
+        overflow: scroll;
+    }
 }
