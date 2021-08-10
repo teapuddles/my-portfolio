@@ -18,7 +18,7 @@ export const ProjectSliceWrapper = styled.div`
     margin-right: 30px;
     margin-top: 20px;
     border: 1px solid #302F31;
-    @media(max-width: 375px){
+    @media(max-width: 420px){
         margin-right: 40px;
     }
     `
