@@ -251,7 +251,7 @@ body slightly peeking through */
 }
 
 .medium-slice a:hover {
-    color: black
+    color: rgb(43, 59, 75);
 }
 
 .post-title {
@@ -260,7 +260,7 @@ body slightly peeking through */
     font-weight: bold;
     font-size: 1.3rem;
     text-decoration: underline;
-    color: rgb(235, 240, 245);
+    color: black
 }
 
 .post-content {
