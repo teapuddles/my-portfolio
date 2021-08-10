@@ -30,7 +30,7 @@ export const ProjectSliceContainer = styled.div`
     position: relative;
     z-index: 10;
     justify-items: center;
-    @media(max-width: 375px){
+    @media(max-width: 420px){
         display: flex;
         flex-direction: column;
     }
