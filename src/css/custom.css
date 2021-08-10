@@ -567,13 +567,39 @@ footer {
 
 /* media/responsive css */
 
-@media (max-width: 375px){
+@media (max-width: 420px){
     .medium-posts{
         flex-wrap: wrap;
         overflow: scroll;
+        margin-bottom: 5px;
     }
     .social-icons{
         margin: 5px;
+        justify-content: space-evenly;
+    }
+    .about-section{
+        max-height: 100%;
+        margin-top: 20px;
+        overflow: scroll;
+    }
+    .about-info-container{
+        margin: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .about-pic-1-wrapper{
+        height: 100%;
+        width: 100%;
+    }
+    .about-section-info-1{
+        max-width: 90%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 320px){
+    .social-icons{
+        margin: 20px;
         justify-content: space-evenly;
     }
 }
