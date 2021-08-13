@@ -16,6 +16,20 @@ body {
     box-sizing: inherit;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(189, 200, 212);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #B1B5BB;  /* creates padding around scroll thumb */
+  }
+
 /* background */
 
 /* top 0 left 0 is to set things at the top left, good for images and starting headers. */
@@ -233,7 +247,6 @@ body slightly peeking through */
     width:100vw;
     min-height: 25vh;
     max-height: 30vh;
-    overflow: hidden;    
 }
 
 
@@ -244,7 +257,8 @@ body slightly peeking through */
     background-color: rgb(189, 200, 212);
     border-radius: 3%;
     padding: 10px;
-    overflow: scroll;
+    overflow: hidden;
+    overflow-y: scroll;
     margin: 15px;
     margin-bottom: 20px;
     border: 1px solid #302F31;
@@ -253,6 +267,7 @@ body slightly peeking through */
 .medium-slice a:hover {
     color: rgb(43, 59, 75);
 }
+
 
 .post-title {
     margin-top: 10px;
