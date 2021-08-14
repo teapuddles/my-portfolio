@@ -161,8 +161,8 @@ body slightly peeking through */
 }
 
 .small-cloud{
-    height: 95%;
-    width: 85%;
+    height: 100%;
+    width: 100%;
     opacity: 0.8;
     overflow: hidden;    
 }
