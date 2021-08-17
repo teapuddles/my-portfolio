@@ -16,6 +16,20 @@ body {
     box-sizing: inherit;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(189, 200, 212);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #B1B5BB;  /* creates padding around scroll thumb */
+  }
+
 /* background */
 
 /* top 0 left 0 is to set things at the top left, good for images and starting headers. */
@@ -147,8 +161,8 @@ body slightly peeking through */
 }
 
 .small-cloud{
-    height: 95%;
-    width: 85%;
+    height: 100%;
+    width: 100%;
     opacity: 0.8;
     overflow: hidden;    
 }
@@ -231,8 +245,8 @@ body slightly peeking through */
     width:100vw;
     min-height: 25vh;
     max-height: 30vh;
-    overflow: hidden;    
 }
+
 
 .medium-slice {
     display: flex;
@@ -241,15 +255,17 @@ body slightly peeking through */
     background-color: rgb(189, 200, 212);
     border-radius: 3%;
     padding: 10px;
-    overflow: scroll;
+    overflow: hidden;
+    overflow-y: scroll;
     margin: 15px;
     margin-bottom: 20px;
     border: 1px solid #302F31;
 }
 
 .medium-slice a:hover {
-    color: black
+    color: rgb(43, 59, 75);
 }
+
 
 .post-title {
     margin-top: 10px;
@@ -257,7 +273,7 @@ body slightly peeking through */
     font-weight: bold;
     font-size: 1.3rem;
     text-decoration: underline;
-    color: rgb(235, 240, 245);
+    color: black
 }
 
 .post-content {
@@ -539,9 +555,7 @@ body slightly peeking through */
 footer {
     height: 35px;
     padding: 0 1.5rem;
-    padding-bottom: 2px;
-    margin-bottom: 2px;
-    background-color: rgba(255,255,255,.3);
+    position: relative;
 }
 
 .social-icons {
@@ -561,4 +575,44 @@ footer {
     z-index: 11;
     display: inline-flex;
     justify-content: space-evenly;
+}
+
+
+/* media/responsive css */
+
+@media (max-width: 420px){
+    .medium-posts{
+        flex-wrap: wrap;
+        overflow: scroll;
+        margin-bottom: 5px;
+    }
+    .social-icons{
+        margin: 5px;
+        justify-content: space-evenly;
+    }
+    .about-section{
+        max-height: 100%;
+        margin-top: 20px;
+        overflow: scroll;
+    }
+    .about-info-container{
+        margin: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .about-pic-1-wrapper{
+        height: 100%;
+        width: 100%;
+    }
+    .about-section-info-1{
+        max-width: 90%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 320px){
+    .social-icons{
+        margin: 20px;
+        justify-content: space-evenly;
+    }
 }

@@ -17,7 +17,10 @@ export const ProjectSliceWrapper = styled.div`
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px;
-    border: 1px solid #302F31;;
+    border: 1px solid #302F31;
+    @media(max-width: 420px){
+        margin-right: 40px;
+    }
     `
 
 export const ProjectSliceContainer = styled.div`
@@ -27,7 +30,10 @@ export const ProjectSliceContainer = styled.div`
     position: relative;
     z-index: 10;
     justify-items: center;
-
+    @media(max-width: 420px){
+        display: flex;
+        flex-direction: column;
+    }
 `
 
 export const ProjectButton = styled.button`

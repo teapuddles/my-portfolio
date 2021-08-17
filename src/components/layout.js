@@ -22,7 +22,7 @@ const Layout = ({ pageTitle, children }) => {
             <h2>Kevin Gleeson</h2>
             <h5>Web Developer</h5>
           </Link>
-
+          
           <nav className='nav-links'>
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
