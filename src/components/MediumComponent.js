@@ -47,6 +47,7 @@ const MediumComponent = () => {
             </>
             )}
         />
+        // end of static query component
     )
 }
 

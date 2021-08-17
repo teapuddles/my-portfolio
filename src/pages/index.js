@@ -2,7 +2,6 @@ import React from 'react'
 import '../css/custom.css'
 import MediumComponent from '../components/MediumComponent'
 import Layout from '../components/Layout.js'
-import { assets } from '../data/project_data'
 import MainComponent from '../components/MainComponent'
 
 
@@ -13,12 +12,7 @@ const Index = () => {
 
   return (
     <Layout pageTitle='Welcome.'>
-      {assets.map((asset) => (
-        <MainComponent 
-          key={asset.title} 
-          homeImage={asset.homeImage} 
-          title={asset.title} />
-        ))}
+          <MainComponent />
         <div className="medium-box">
           <MediumComponent />
         </div>
@@ -27,3 +21,23 @@ const Index = () => {
 
 
 export default Index
+
+
+
+// possible gql query for images. This includes both src and relative path.
+
+// query {
+//   images: allFile {
+//     edges {
+//       node {
+//         relativePath
+//         name
+//         childImageSharp {
+//           fluid(maxWidth: 600) {
+//             ...GatsbyImageSharpFluid
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
