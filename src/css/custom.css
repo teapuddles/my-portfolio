@@ -147,15 +147,11 @@ body slightly peeking through */
 
 /* Landing Page */
 
-.main-wrapper{
-    margin-top: 10px;
-}
 
 .cloud-wrapper{
-    height: 85%;
+    height: 100%;
     width: 100%;
     position: absolute;
-    display: grid;
     justify-items: center;
     align-items: center;
 }
@@ -164,7 +160,6 @@ body slightly peeking through */
     height: 100%;
     width: 100%;
     opacity: 0.8;
-    overflow: hidden;    
 }
 
 .main-image-wrapper {
@@ -174,7 +169,6 @@ body slightly peeking through */
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
-    /* padding-top: 50px; */
 }
 
 .landing-image-container {
@@ -568,13 +562,11 @@ footer {
     padding-bottom: 5px;
     margin-left: 30%;
     margin-right: 30%;
+    margin-top: 15px;
 }
 
 .social-icons a{
-    position: relative;
-    z-index: 11;
     display: inline-flex;
-    justify-content: space-evenly;
 }
 
 
@@ -588,6 +580,7 @@ footer {
     }
     .social-icons{
         margin: 5px;
+        margin-top: 10px;
         justify-content: space-evenly;
     }
     .about-section{

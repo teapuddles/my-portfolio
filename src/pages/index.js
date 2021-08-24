@@ -22,22 +22,3 @@ const Index = () => {
 
 export default Index
 
-
-
-// possible gql query for images. This includes both src and relative path.
-
-// query {
-//   images: allFile {
-//     edges {
-//       node {
-//         relativePath
-//         name
-//         childImageSharp {
-//           fluid(maxWidth: 600) {
-//             ...GatsbyImageSharpFluid
-//           }
-//         }
-//       }
-//     }
-//   }
-// }

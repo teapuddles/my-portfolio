@@ -7,19 +7,13 @@ import smallCloud from '../images/kevinPics/smallCloud.png'
 const MainComponent = (props) => {
 
     return(
-        <div className='main-wrapper'>
+        <>
         <div className="cloud-wrapper">
             <StaticImage 
             src= "../images/kevinPics/smallCloud.png"
             alt= "cloud"
             className="small-cloud"
             />
-            {/* <img key={smallCloud}
-                src={smallCloud}
-                alt={"cloud"}
-                className="small-cloud"
-                >
-            </img> */}
         </div>
         <div className="main-image-wrapper">
         <div className="landing-image-container" >
@@ -38,7 +32,7 @@ const MainComponent = (props) => {
             </Link>
         </div>
         </div>
-        </div>
+        </>
     )
 }
 
