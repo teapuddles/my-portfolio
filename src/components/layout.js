@@ -18,8 +18,8 @@ const Layout = ({ pageTitle, children }) => {
         <header>
 
           <Link to="/" id='name-wrapper'>
-            <h2>Kevin Gleeson</h2>
-            <h5>Web Developer</h5>
+            <h2 className="dev-name">Kevin Gleeson</h2>
+            <h5 className="dev-title">Web Developer</h5>
           </Link>
           
           <nav className='nav-links'>
