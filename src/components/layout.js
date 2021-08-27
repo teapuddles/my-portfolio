@@ -10,7 +10,6 @@ import email from '../images/icons/email.png'
 
 
 
-
 const Layout = ({ pageTitle, children }) => {
     return (
       <>

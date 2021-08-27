@@ -16,11 +16,8 @@ export const ProjectSliceWrapper = styled.div`
     border-radius: 50%;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 70px;
     border: 1px solid #302F31;
-    @media(max-width: 420px){
-        margin-right: 40px;
-    }
     `
 
 export const ProjectSliceContainer = styled.div`
