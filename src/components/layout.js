@@ -1,4 +1,5 @@
 import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 
 import '../css/custom.css'
@@ -37,36 +38,32 @@ const Layout = ({ pageTitle, children }) => {
         <footer>
           <div className="social-icons">
           <a href="https://www.linkedin.com/in/teapuddles824/">
-           <img key={linkedin}
-                src={linkedin}
-                alt={"linkedin"}
-                className="linkedin-icon"
-                >
-                </img>
+          <StaticImage 
+            src= "../images/icons/linkedin.png"
+            alt= "linkedin"
+            className="linkedin-icon"
+            />
               </a>
          <a href="https://teapuddles.medium.com/">
-          <img key={medium}
-                src={medium}
-                alt={"medium"}
-                className="medium-icon"
-                >
-                </img>
+         <StaticImage 
+            src= "../images/icons/medium.png"
+            alt= "medium"
+            className="medium-icon"
+            />
               </a>
          <a href="https://github.com/teapuddles">   
-          <img key={github}
-                src={github}
-                alt={"github"}
-                className="github-icon"
-                >
-                </img>
+         <StaticImage 
+            src= "../images/icons/github.png"
+            alt= "github"
+            className="github-icon"
+            />
                 </a> 
-        <Link to="/contact">      
-          <img key={email}
-                src={email}
-                alt={"email"}
-                className="email-icon"
-                >
-                </img>
+        <Link to="/contact">    
+        <StaticImage 
+            src= "../images/icons/email.png"
+            alt= "email"
+            className="email-icon"
+            />  
               </Link>
           </div>
         </footer>

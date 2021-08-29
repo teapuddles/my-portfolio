@@ -4,6 +4,7 @@ import {
     ProjectSlice,
     ProjectSliceWrapper
  } from './StyledProjectListComponent'
+ import { StaticImage } from 'gatsby-plugin-image'
  
 const ProjectList = (props) => {
    
