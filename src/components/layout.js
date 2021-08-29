@@ -4,12 +4,6 @@ import { Link } from 'gatsby'
 
 import '../css/custom.css'
 
-import linkedin from '../images/icons/linkedin.png'
-import github from '../images/icons/github.png'
-import medium from '../images/icons/medium.png'
-import email from '../images/icons/email.png'
-
-
 
 const Layout = ({ pageTitle, children }) => {
     return (

@@ -1,9 +1,7 @@
 import React from 'react'
 import ResumeComponent from '../components/ResumeComponent';
 import Layout from '../components/Layout.js';
-
-import smallCloudFlip from '../images/kevinPics/smallCloudFlip.png'
-
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Resume = () => {
 
@@ -12,12 +10,11 @@ const Resume = () => {
             <div className='resume-section'>
                     <ResumeComponent />
             <div className="resume-cloud-wrapper">
-            <img key={smallCloudFlip} 
-             src={smallCloudFlip} 
-             alt={'small cloud'} 
-             className='resume-cloud' 
-            >
-            </img>
+            <StaticImage 
+             src= "../images/kevinPics/smallCloudFlip"
+             alt= "small cloud"
+             className="resume-cloud"
+            />
             </div>
             </div>
         </Layout>
