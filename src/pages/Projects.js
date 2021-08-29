@@ -4,7 +4,7 @@ import ProjectList from '../components/ProjectList';
 import { ProjectSliceContainer } from '../components/StyledProjectListComponent';
 
 import { projects } from '../data/project_data';
-import bigCloud from '../images/kevinPics/bigCloud.png'
+import { StaticImage } from 'gatsby-plugin-image'
 
 
 const Projects = () => {
@@ -16,12 +16,11 @@ const Projects = () => {
              <ProjectList key={singleProject.title} singleProject={singleProject} />
             ))}
          <div className="project-cloud-wrapper">
-         <img key={bigCloud} 
-             src={bigCloud} 
-             alt={'big cloud'} 
-             className='project-cloud' 
-            >
-            </img>
+         <StaticImage 
+            src= "../images/kevinPics/bigCloud.png"
+            alt= "big cloud"
+            className="project-cloud"
+            />
         </div>
         </ProjectSliceContainer>
         </Layout>

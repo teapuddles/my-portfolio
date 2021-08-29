@@ -2,9 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 
-import smallCloud from '../images/kevinPics/smallCloud.png'
-
-const MainComponent = (props) => {
+const MainComponent = () => {
 
     return(
         <>
@@ -23,12 +21,6 @@ const MainComponent = (props) => {
             alt="kevin at HuangShan"
             className="landing-image"
             />
-            {/* <img key={props.homeImage} 
-             src={props.homeImage} 
-             alt={props.title} 
-             className='landing-image' 
-            >
-            </img> */}
             </Link>
         </div>
         </div>
