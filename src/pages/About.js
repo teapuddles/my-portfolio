@@ -12,6 +12,7 @@ export default function About () {
                 src= "../images/kevinPics/cloudFlipBig.png"
                 alt= "flipped cloud"
                 className="about-cloud"
+                placeholder="none"
             />
                 </div>
             <div className="about-info-container">
@@ -20,6 +21,7 @@ export default function About () {
                 src= "../images/kevinPics/kevinShanghai.jpg"
                 alt= "kevin at bus"
                 className="about-pic-1"
+                placeholder="blurred"
             />
                 </div>
             <div className='about-section-info-1'>

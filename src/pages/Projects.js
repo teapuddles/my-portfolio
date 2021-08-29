@@ -20,6 +20,7 @@ const Projects = () => {
             src= "../images/kevinPics/bigCloud.png"
             alt= "big cloud"
             className="project-cloud"
+            placeholder="none"
             />
         </div>
         </ProjectSliceContainer>

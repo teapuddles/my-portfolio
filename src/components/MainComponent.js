@@ -11,6 +11,7 @@ const MainComponent = () => {
             src= "../images/kevinPics/smallCloud.png"
             alt= "cloud"
             className="small-cloud"
+            placeholder="none"
             />
         </div>
         <div className="main-image-wrapper">
@@ -20,6 +21,7 @@ const MainComponent = () => {
             src="../images/kevinPics/ChinaKevin.jpg"
             alt="kevin at HuangShan"
             className="landing-image"
+            placeholder="blurred"
             />
             </Link>
         </div>
