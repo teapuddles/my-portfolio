@@ -6,14 +6,6 @@ const MainComponent = () => {
 
     return(
         <>
-        <div className="cloud-wrapper">
-            <StaticImage 
-            src= "../images/kevinPics/smallCloud.png"
-            alt= "cloud"
-            className="small-cloud"
-            placeholder="none"
-            />
-        </div>
         <div className="main-image-wrapper">
         <div className="landing-image-container" >
         <Link to="/about">

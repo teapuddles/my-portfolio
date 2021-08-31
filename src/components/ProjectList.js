@@ -4,6 +4,8 @@ import {
     ProjectSlice,
     ProjectSliceWrapper
  } from './StyledProjectListComponent'
+
+import {GatsbyImage} from 'gatsby-plugin-image'
  
 const ProjectList = (props) => {
    
@@ -16,8 +18,6 @@ const ProjectList = (props) => {
     }
 
     return(
-        // this modal probably needs to be rendered 
-        // on project page instead of here. 
         <>
             {myModal ? (
                 <ProjectModal projectProps={projectProps} setMyModal={setMyModal}/>
@@ -26,6 +26,7 @@ const ProjectList = (props) => {
             }
         <ProjectSliceWrapper>
         <ProjectSlice>
+            {/* dynamic image handling here via gql */}
          <img key={projectProps.title} 
              src={projectProps.image} 
              alt={projectProps.title} 

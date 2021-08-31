@@ -7,6 +7,8 @@ import { projects } from '../data/project_data';
 import { StaticImage } from 'gatsby-plugin-image'
 
 
+// query for images on the projects page, then pass down as props to match already written code?? 
+
 const Projects = () => {
 
     return(

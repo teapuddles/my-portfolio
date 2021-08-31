@@ -8,14 +8,14 @@ const Resume = () => {
     return(
         <Layout pageTitle='Current Resume'>
             <div className='resume-section'>
-                    <ResumeComponent />
+                <ResumeComponent />
             <div className="resume-cloud-wrapper">
-            <StaticImage 
-             src= "../images/kevinPics/smallCloudFlip.png"
-             alt= "small cloud"
-             className="resume-cloud"
-             placeholder="none"
-            />
+                <StaticImage 
+                src= "../images/kevinPics/smallCloudFlip.png"
+                alt= "small cloud"
+                className="resume-cloud"
+                placeholder="none"
+                />
             </div>
             </div>
         </Layout>

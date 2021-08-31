@@ -8,9 +8,6 @@ import Covid from '../images/websitePics/Covid.png'
 import Fifteen from '../images/websitePics/Fifteen.png'
 import Portfolio from '../images/websitePics/Portfolio.png'
 
-import ChinaKevin from '../images/kevinPics/ChinaKevin.jpg'
-
-
 export const projects = [
     {
         title: "Covid-19 Tracker",
@@ -85,9 +82,3 @@ export const projects = [
     }
 ]
 
-export const assets = [
-    {
-        homeImage: ChinaKevin,
-        title: 'Kevin in Shanghai',
-    }
-]

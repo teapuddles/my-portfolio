@@ -36,6 +36,9 @@ const Layout = ({ pageTitle, children }) => {
             src= "../images/icons/linkedin.png"
             alt= "linkedin"
             className="linkedin-icon"
+            layout="fixed"
+            height={45}
+            width={45}
             />
               </a>
          <a href="https://teapuddles.medium.com/">
@@ -43,6 +46,9 @@ const Layout = ({ pageTitle, children }) => {
             src= "../images/icons/medium.png"
             alt= "medium"
             className="medium-icon"
+            layout="fixed"
+            height={45}
+            width={45}
             />
               </a>
          <a href="https://github.com/teapuddles">   
@@ -50,6 +56,9 @@ const Layout = ({ pageTitle, children }) => {
             src= "../images/icons/github.png"
             alt= "github"
             className="github-icon"
+            layout="fixed"
+            height={45}
+            width={45}
             />
                 </a> 
         <Link to="/contact">    
@@ -57,6 +66,9 @@ const Layout = ({ pageTitle, children }) => {
             src= "../images/icons/email.png"
             alt= "email"
             className="email-icon"
+            layout="fixed"
+            height={45}
+            width={45}
             />  
               </Link>
           </div>

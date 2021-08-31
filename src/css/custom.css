@@ -147,6 +147,13 @@ body slightly peeking through */
 
 /* Landing Page */
 
+.main-component-layout{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
 
 .cloud-wrapper{
     height: 100%;
@@ -163,8 +170,6 @@ body slightly peeking through */
 }
 
 .main-image-wrapper {
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -172,9 +177,7 @@ body slightly peeking through */
 }
 
 .landing-image-container {
-    justify-items: center;
-    align-items: center;
-    height: 50vh;
+    height: 40%;
     width: 40%;
     opacity: 0.9;
 }
@@ -223,6 +226,11 @@ body slightly peeking through */
 
 /* Medium */
 
+.medium-box{
+    height: 100%;
+    width: 100%;
+}
+
 .medium-header{
     position: fixed;
     bottom: 30%;
@@ -235,8 +243,7 @@ body slightly peeking through */
     justify-content: space-evenly;
     position: absolute;
     padding-right: 25px;
-    bottom: 0;
-    width:100vw;
+    width: 100vw;
     min-height: 25vh;
     max-height: 30vh;
 }
@@ -556,7 +563,6 @@ footer {
     position: relative;
     z-index: 11;
     display: flex;
-    height: 100%;
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 5px;
@@ -568,6 +574,12 @@ footer {
 .social-icons a{
     display: inline-flex;
 }
+
+
+/* .social-icons-wrapper{
+    height: 50px;
+    width: 50%;
+} */
 
 
 /* media/responsive css */
