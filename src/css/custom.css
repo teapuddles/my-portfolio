@@ -600,6 +600,7 @@ footer {
     .landing-image-container{
         height: 100%;
         width: 100%;
+        margin-left: 20px;
     }
     .cloud-wrapper{
         height: 100%;
@@ -613,6 +614,9 @@ footer {
         flex-wrap: wrap;
         overflow: scroll;
         margin-bottom: 5px;
+    }
+    .medium-slice{
+        margin-left: 0px;
     }
     .social-icons{
         margin: 5px;
